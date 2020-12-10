@@ -1,4 +1,3 @@
-import env from '~/env.js'
 export default ({ app }, inject) => {
   function doPayment (id, amount, description) {
     return new Promise((resolve, reject) => {
@@ -51,7 +50,7 @@ export default ({ app }, inject) => {
   const script = document.createElement('script')
   script.async = true
   script.id = 'paypalscript'
-  script.src = 'https://www.paypal.com/sdk/js?intent=capture&client-id=' + (env.PAYPAL_MODE === 'sandbox' ? env.PAYPAL_CLIENT_ID : env.PAYPAL_CLIENT_ID_PRODUCTION)
+  script.src = 'https://www.paypal.com/sdk/js?intent=capture&client-id=' + (process.env.PAYPAL_MODE === 'sandbox' ? process.env.PAYPAL_CLIENT_ID : process.env.PAYPAL_CLIENT_ID_PRODUCTION)
   document.head.appendChild(script)
   inject('paypal', (id, amount, description) =>
     new Promise((resolve, reject) => {

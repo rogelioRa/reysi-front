@@ -1,26 +1,6 @@
-import ENV from '~/env.js'
 class Memorick {
   getImageProfile (image, rol) {
-    let ret = ''
-    var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/
-    if (regexp.test(image)) {
-      ret = image
-    } else {
-      if (!(/\.(jpg|png|gif)$/i).test(image)) {
-        ret = `${ENV.API}/default.png`
-      }
-      console.log(`${ENV.API}/${image}`, 'here url')
-      if (rol && rol === 'customer') {
-        ret = image === null
-          ? `${ENV.API}/default.png`
-          : `${ENV.API}/customers/${image}`
-      } else {
-        ret = image === null
-          ? `${ENV.API}/default.png`
-          : `${ENV.API}/${image}`
-      }
-    }
-    return ret
+    return ''
   }
 
   async isUrlImage (image) {
@@ -77,20 +57,5 @@ class Memorick {
         return { color: '#6c757d', label: (localStorage.lang === 'es') ? 'No especificado' : 'Not specified' }
     }
   }
-
-  // formatMoney (number, decPlaces, decSep, thouSep) {
-  //   decPlaces = isNaN(decPlaces = Math.abs(decPlaces)) ? 2 : decPlaces,
-  //   decSep = typeof decSep === 'undefined' ? '.' : decSep
-  //   thouSep = typeof thouSep === 'undefined' ? ',' : thouSep
-  //   const sign = number < 0 ? '-' : ''
-  //   const i = String(parseInt(number = Math.abs(Number(number) || 0).toFixed(decPlaces)))
-  //   let j = 0
-  //   j = (j = i.length) > 3 ? j % 3 : 0
-
-  //   return sign +
-  //     (j ? i.substr(0, j) + thouSep : '') +
-  //     i.substr(j).replace(/(\decSep{3})(?=\decSep)/g, '$1' + thouSep) +
-  //     (decPlaces ? decSep + Math.abs(number - i).toFixed(decPlaces).slice(2) : '')
-  // }
 }
 export default new Memorick()

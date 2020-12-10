@@ -1,5 +1,3 @@
-import ENV from '~/env.js'
-
 export default {
   computed: {
     fullScreenLoading () {
@@ -7,11 +5,7 @@ export default {
     }
   },
   methods: {
-    async verifyAuth () {
-      const auth = await this.$axios.post(`${ENV.API}/admin/auth-verify`)
-      if (!auth.data.status) { this.$router.push('/') }
-      this.$store.commit('user/setUser', auth.data.user)
-      this.$store.commit('admin/setFullPageLoading', false)
+    verifyAuth () {
     },
     async getProductos () {
       // here code
