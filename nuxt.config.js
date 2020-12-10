@@ -147,8 +147,8 @@ export default {
     middleware: 'i18n'
   },
   server: {
-    // port: 3023
-    port: 8000, // default: 3000
-    host: '0.0.0.0' // default: localhost
+    port: 3026
+    // port: 8000, // default: 3000
+    // host: '0.0.0.0' // default: localhost
   }
 }
