@@ -1,0 +1,547 @@
+{
+  "checkout": {
+    "labels": {
+      "paquete": "Package",
+      "select_payment": "Select a payment method",
+      "payment_available": "Available payment methods",
+      "credit_card": "Credit card",
+      "method_required": "The payment method is required.",
+      "complete_payment": "Let's complete your payment.",
+      "maxPhotos": "Extras fotos",
+      "details": "Package details",
+      "bricks": {
+        "title": "Do you want printed photos sent to your address?",
+        "subtitle": "Decorate your spaces with your favorite memories from this trip.",
+        "instructions": "Mark the photos you want printed with a",
+        "details": "They are printed photographs of your session in 20x20cm squares ready to stick on your wall.",
+        "rules": "Send us an email to"
+      },
+      "extraPackages": {
+        "title": "Do you want to download more photos?",
+        "subtitle": "Increase your package to download <b class='blue'>more photos</b> and relive unforgettable moments"
+      },
+      "options": {
+        "destination": "Destination",
+        "date": "Date",
+        "giftcard": "Giftcard reservation discount",
+        "cupon": "Coupon reservation discount",
+        "discount": "You have a discount of:",
+        "duration": "Photoshoot duration",
+        "people": "People amount",
+        "comments": "Comments",
+        "price_breakdown": "Price breakdown",
+        "advance": "Amount to pay now (booking fee):",
+        "pending": "Pending settlement on the day of the session:",
+        "legend": "The amount must be paid to the photographer in cash, in local currency, at the official exchange on the day of the session"
+      },
+      "confirm": "Confirm payment for"
+    },
+    "placeholder": {
+      "email": "Enter your email",
+      "phone": "Enter your phone",
+      "comment": "(Optional)"
+    }
+  },
+  "extraShop": {
+    "firstTab": {
+      "buttonOkay": "Continue",
+      "buttonDoNotOkay": "No, continue with my download"
+    },
+    "secondTab": {
+      "title": "Do you want bricks?",
+      "subtitle": "Decorate your spaces with printed 20x20cm photos ready to stick on your wall"
+    },
+    "payment": {
+      "title1": "Bricks",
+      "title2": "Extra photo package"
+    },
+    "address": {
+      "title": "Share your data",
+      "street": "Street",
+      "cp": "Postal Code",
+      "suburb": "Suburb",
+      "state": "State",
+      "city": "City",
+      "numberExt": "Number (Ext)",
+      "numberInt": "Number (Int)",
+      "comments": "Additional instructions to deliver your photos at this address",
+      "commentsPlaceholder": "Description of the façade, reference points to find, safety instructions, etc."
+    }
+  },
+  "navbar": {
+    "labels": {
+      "promocode": "Get <b>$20USD</b> off your first purchase with the&nbsp; <b style='background: white; color: #fa66cd;'> &nbsp;code: bricks2020&nbsp; </b>",
+      "destination": "Destinations",
+      "prices": "Prices",
+      "gift": "Gifcards",
+      "howitworks": "How it works?"
+    },
+    "buttons": {
+      "send": "Send recovery mail"
+    },
+    "pass_recover": {
+      "title": "Do not worry, we will help you recover your password",
+      "email": "Email",
+      "email_confirm": "Confirm your email",
+      "pass_sent": "Recovery link sent",
+      "check_mail": "Check your inbox, to continue the process",
+      "write_new": "Set your new password",
+      "new_pass": "New password",
+      "new_pass_confirm": "Confirm",
+      "save": "Save"
+    },
+    "login": {
+      "labels": {
+        "greeting": "¡Welcome again!",
+        "login": "Sign in",
+        "sign_in": "Please sign in",
+        "email": "Email",
+        "password": "Password",
+        "forgot_password": "Forgot your password?",
+        "forgot_password2": "Recover it here!",
+        "no_account": "Not registered?",
+        "no_account2": "Sign up!"
+      },
+      "buttons": {
+        "login": "Log in"
+      }
+    },
+    "register": {
+      "welcome": "Welcome!",
+      "register": "Sign up",
+      "email": "Email",
+      "name": "Name",
+      "lastname": "Last name",
+      "where_from": "Where are you from?",
+      "phone": "Phone",
+      "have_account": "Already have an account?",
+      "are_photog": "Are you a photographer?",
+      "personalize": "Customize your profile",
+      "idioms": "Languages (You can select more than one)",
+      "select_langs": "Select languages",
+      "profile_pic": "Profile picture",
+      "personal_data": "Personal info",
+      "birthday": "Birthday",
+      "general_data": "General info",
+      "zone": "Zone",
+      "destination": "Destination",
+      "biography": "Biography",
+      "random_fact": "Do you have any curious information about yourself?",
+      "portfolio_title": "Portfolio",
+      "portfolio": "Portfolio",
+      "click_to_upload": "Click to upload the files or drag them here",
+      "upload": "Upload a minimum of 6 photos.<br>Make sure they are the best tourists photos you have at your destination.<br>Photos must not have logos or watermarks on them",
+      "buttons": {
+        "register": "Sign up"
+      }
+    }
+  },
+  "footer": {
+    "labels": {
+      "are_you_photographer": "Are you a photographer?",
+      "join": "Join here!",
+      "menu": "MENU",
+      "dest": "Destinations",
+      "prices": "Prices",
+      "gift": "Gift a photoshoot",
+      "more": "MORE CONTENT",
+      "contact": "Contact us",
+      "contact2": "CONTACT",
+      "terms": "Terms and Conditions",
+      "subscribe": "SUBSCRIBE",
+      "developed": "Developed by Supernova Apps"
+    },
+    "placeholders": {
+      "subscribe":"Enter your mail"
+    }
+  },
+  "index": {
+    "labels": {
+      "title": "Decorate your spaces with your favorite memories",
+      "btnAction": "Get Bricks!",
+      "what_we_do": "We connect travelers with local photographers around the world",
+      "quote": "An extraordinary memory",
+      "souvenir_title": "Turn your memories into the best souvenir",
+      "souvenir_number": "150 destinations",
+      "souvenir_text": "all over the world",
+      "see_destinations": "Explore destinations",
+      "see_us": "As featured in:",
+      "refer": "Refer",
+      "destinations1": "Local photographers in more than",
+      "destinations2": "150 DESTINATIONS",
+      "destinations3": "Tour the best places with a local photographer",
+      "comments_1": "Don't take our word,",
+      "comments_2": "Take theirs!",
+      "workflow1_title": "Book",
+      "workflow1_text": "Choose your destination and date for your photoshoot",
+      "workflow2_title": "¡Click!",
+      "workflow2_text": "Local photographers take your photoshoot, live the <b>Memorick</b> experience",
+      "workflow3_title": "Enjoy",
+      "workflow3_text": "Receive your digital photos within<br>72 hours and relive your memories",
+      "workflow3_desc": "Delivery time may vary",
+      "promotions_title": "Promotions",
+      "promotions1_what": "FOR FREE",
+      "promotions1_when": "on your first photoshoot",
+      "promotions1_desc": "Use the code<br><b>PHOTOS2020</b><br>at checkout",
+      "promotions2_what": "REFER YOUR FRIENDS",
+      "promotions2_when": "and get gift credits",
+      "promotions2_desc": "¡Refer your friends and get <br><b class=blue>$20USD</b> as a gift!"
+    },
+    "placeholders": {
+      "search_input":"Find your destination"
+    }
+  },
+  "destinations": {
+    "labels": {
+      "explore": "Explore all the destinations where you can have amazing photos",
+      "150dest": "<span class=dest150>150 destinations</span> all over the wolrd",
+      "find_your_dest": "<b>Can't find your destination?</b> Send us an email to <a href='mailto:info@memorick.com' class='bold gray'>info@memorick.com</a>",
+      "see_dest": "See destinations in",
+      "all_dest": "All destinations in"
+    }
+  },
+  "destination": {
+    "labels": {
+      "welcome": "Welcome to",
+      "photographers_title": "Our photographers",
+      "photographers_desc": "We have a team of expert local photographers ready to take your session",
+      "photos_title": "What kind of photos will I get in",
+      "photos_desc": "Meet wonderful places and take forever an extraordinary memory",
+      "select_pack": "Select your Package",
+      "not_available": "At the moment, we do not have packages available for this destination, if you want us to take photos of your trip, do not hesitate to send us an email at <a style='color: #4E5166; font-weight: 700;' href='mailto:info@memorick.com'>info@memorick.com</a>",
+      "day_title": "What day do you want your photos in",
+      "day_desc": "Select the date on the calendar",
+      "day_flexibility": "Do you have date flexibility for your photoshoot?",
+      "days": {
+        "0": "0 days before / after",
+        "1": "1 day before / after",
+        "2": "2 days before / after",
+        "3": "3 days before / after"
+      },
+      "day_hour": "What time would you like for your session?",
+      "day_occasion": "What is the occasion of the photoshoot?",
+      "occasions": {
+        "1": "Anniversary",
+        "2": "Babymoon",
+        "3": "Birthday",
+        "4": "Honeymoon",
+        "5": "Proposal",
+        "6": "Familiar Trip",
+        "7": "Friends Trip",
+        "8": "Other"
+      },
+      "pack_resume": "Package Summary",
+      "book_with": "Booking fee:",
+      "agree": "I agree with the",
+      "terms": " Terms and Conditions",
+      "unselected": "You haven't selected a package yet",
+      "coupon": "Do you have a coupon or GiftCard code?",
+      "select_now": "Select a package",
+      "eval": "Evaluations",
+      "ratings": {
+        "title": "Tell us, what was your experience with Memorick?",
+        "label": "Enter a review",
+        "service": "Service",
+        "quality": "Photo quality",
+        "photog": "Photographers Quality"
+      }
+    },
+    "buttons": {
+      "reserve": "Book now with"
+    },
+    "placeholders": {
+      "coupon": "Enter the code",
+      "occasion": "Tell us the occasion"
+    }
+  },
+  "zones": {
+    "labels": {
+      "populars": "Popular destinations",
+      "dest": "destinations",
+      "to_rem": "to remember in",
+      "packages_from": "Packages from"
+    }
+  },
+  "prices": {
+    "labels": {
+      "world_packs": "Packages all over the world",
+      "pay_now": "Book your photoshoot today by paying an advance, the rest you pay the day of your photoshoot",
+      "mex_packs": "Packages in México",
+      "quote_more": "Quote more people, more session time",
+      "select_pack": "Select a package",
+      "personalized_pack": "Looking for a custom package? <br> Send us an email to <a href='mailto:info@memorick.com' style='color: #33ccff'>info@memorick.com</a>",
+      "personalized_pack2": "<b>Looking for a custom package?</b> Send us an email to <a href='mailto:info@memorick.com' style='color: #33ccff'>info@memorick.com</a>",
+      "people_amount": "How many people?",
+      "time_amount": "For how long?"
+    }
+  },
+  "gift": {
+    "labels": {
+      "perfect_gift": "There is no better gift than the perfect travel photos!",
+      "desc": "Give your friends a giftcard for their honeymoon, anniversary trip, birthday or any occasion.",
+      "few_steps": "Give away a photoshoot in three simple steps!",
+      "step1": "Select the giftcard you want to send to your friends.",
+      "step2": "Share your information with us to contact them and notify them of your gift.",
+      "step3": "Your friends will receive their photos in<br>72 hours approx.",
+      "gift_select": "Select the giftcard",
+      "reciever_title": "Enter the details of the person to whom you want to send the gift card.",
+      "sender_title": "Enter your information",
+      "where_appear": "These will appear on the gift card we send to",
+      "greeting": "Hello",
+      "confirm": "You are about to give a giftcard, let's just confirm the data.",
+      "reciever": "Reciever",
+      "sender": "Your data",
+      "message" : "Your message for",
+      "giftcard": "Giftcard",
+      "value": "Giftcard value"
+    },
+    "buttons": {
+      "gift": "Gift now",
+      "next": "Next",
+      "prev": "Previous",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "placeholders": {
+      "name": "Name",
+      "lastname": "Lastname",
+      "email": "Email",
+      "message": "Personal message (optional)",
+      "city": "Where are you from?",
+      "phone": "Phone number"
+    }
+  },
+  "how-it-works": {
+    "labels": {
+      "title": "It's very easy to have amazing photos of your trip.",
+      "steps": {
+        "reserve": "Book",
+        "desc1": "Choose your destination and date for your photoshoot.",
+        "confirm": "Confirm",
+        "desc2": "Chat with your local photographer, he will give you the best tips for your session.",
+        "click": "Click!",
+        "desc3": "Local photographers take your session, live the <b>Memorick</b> experience.",
+        "download": "Download",
+        "desc4": "Receive your photos in 72 hours * and download them to your cell phone or computer.",
+        "enjoy": "Enjoy",
+        "desc5": "Relive your moments and remember your trip forever."
+      }
+    }
+  },
+  "faq": {
+    "labels": {
+      "help-you": "We are here to help you",
+      "faq-title": "These are some of the most frequently asked questions.",
+      "questions": {
+        "q1": "How can I book a photo session with Memorick?",
+        "a1": "<ol><li>Click on <b>book</b> to start your booking process, Where you will provide us with details of your travel information, such as - destination(s), date, time, number of people, special requirements, etc.</li><li>After answering all questions, you will receive a detailed email with a link to your personal photoshoot order. Meanwhile, your destination photographer will confirm availability on the date and time.</li><li>Once the Photographer confirms his availability, we will notify you and the booking fee will be charged to the selected payment method. After that, the date and time is secured.</li><li>After the photo-shoot is confirmed, you will be able to chat directly with your Photographer through the site. This way, logistics, questions or adjustments about the session can be made.</li></ol>",
+        "q2": "What determines the cost of my service?",
+        "a2": "Prices may vary depending on the destination, people and duration of the photo session. Our goal is to offer high quality at the most affordable prices. <br> Explore our <a href='/destinations'> destinations </a>, click on your favorite and check our rates!",
+        "q3": "How can I guarantee the date I requested?",
+        "a3": "Once the booking deposit is covered, the date is yours!",
+        "q4": "How do I pay for my photo session?",
+        "a4": "Payment is made in two steps: <ol> <li> Deposit to secure your reservation date: We will send you a PayPal request by email or you can transfer or deposit directly to our bank account. </li> <li> Remaining amount must be paid in cash to the photographer on the day of the photoshoot, in local currency, when the photoshoot ends. </li> </ol>",
+        "q5": "Can I pay the full price of the service in one payment?",
+        "a5": "Yes, we will send you the PayPal link to pay the total amount of the service. ** There may be an additional commission of 5% when using PayPal services.",
+        "q6": "How far in advance should I reserve my photoshoot?",
+        "a6": "You can book 10 months in advance, but it is suggested that it not be 2 weeks in advance. However, if you are on a tight schedule before your trip, we will always try to organize your photoshoot so that you can click on your memories!",
+        "q7": "Where can I see examples of photos taken at a specific destination?",
+        "a7": "See our main destinations section; Here you can take a look at what you will experience. Do you want to see more examples in a specific destination? Send us an email to: info@memorick.com requesting them!",
+        "q8": "Will I have to pay the photographer's travel expenses?",
+        "a8": "All our photographers are local, this means living in the destination where the shoot will take place, so there is no need to cover their travel expenses.",
+        "q9": "Are there any additional charges that I must pay the day of the photoshoot?",
+        "a9": "It all depends on the details of your photoshoot. In some cases, you will have to pay the transportation and / or admission expenses to the places where the photo session is held. In this case, customers must cover the photographer's expenses as well.",
+        "q10": "I want a photo session in a destination that does not appear on your list.",
+        "a10": "Memorick is constantly growing and we will always try to help you get a photoshoot in any destination. We suggest that you inform us in advance so that we can find you a local photographer and be able to provide the service.",
+        "q11": "How many people can participate in the photo session?",
+        "a11": "As many as you want! However, the rates vary according to the number of people. Usually, our standard rate is 1 to 5 people. If you have six or more people in your group, there will be an additional charge. Let us know if your party is too big, we can find a way to create a package that suits your needs.",
+        "q12": "What happens if I am late or need to cancel my photo session?",
+        "a12": "Notify us by email info@memorick.com or chat with us through the Facebook page facebook.com/memorickphotography. We will fix the solution that suits you. If the photo session is canceled due to weather conditions or force majeure, the reservation fee will be taken into account for another photo session in the future. Read our Terms and Conditions for more information about our refund policies.",
+        "q13": "What happens if there are weather contingencies (rain, snow, etc.)?",
+        "a13": "Since we know that you are in a certain destination for a couple of days, our photographers will assess whether it is feasible to keep on the track with the original schedule based on weather conditions. If necessary, we suggest alternative locations or, if possible, reprogram.",
+        "q14": "What is the tolerance policy to wait for customers at the meeting point?",
+        "a14": "Our tolerance time is 30 minutes. We suggest you notify us in advance to the following email info@memorick.com in case you are late, in order to reschedule the agenda.",
+        "q15": "When can we see our photos?",
+        "a15": "Our promise is to deliver them in 72 hours * after the photo session. We will email you a link to a high-resolution online digital gallery that you can access from any portable device or computer."
+      },
+      "see_all": "See all frequently asked questions",
+      "doubts": "If you have any questions during the reservation process, send us an email to: <a href='mailto:info@memorick.com'style='color: #33ccff;'> info@memorick.com </a>"
+    }
+  },
+  "pricecards": {
+    "labels": {
+      "special_price": "Special price",
+      "popular": "MOST POPULAR!",
+      "person": "Person",
+      "persons": "People",
+      "minutes": "Minutes",
+      "one_location": "One location",
+      "two_locations": "From one to two locations",
+      "more_locations": "Two or more locations",
+      "photos": "Photos",
+      "book": "Book paying only:",
+      "total": "Total:"
+    },
+    "buttons": {
+      "select": "Select"
+    }
+  },
+  "contact-us": {
+    "labels": {
+      "title": "Need help?",
+      "questions": "Questions or comments"
+    },
+    "buttons": {
+      "send": "Send"
+    }
+  },
+  "profile": {
+    "labels": {
+      "zone": "Zone",
+      "destination": "City",
+      "desc": "Description",
+      "other_data": "Other info",
+      "time": "HOUR",
+      "coupon": "COUPON",
+      "statusDownload": "Downloading photos, please wait",
+      "buttonOkay": "I agree",
+      "butonDoNotOkay": "I do not agree",
+      "maxPhotosCoupon": "EXTRAS PHOTOS",
+      "titlePhotos1": "Select your",
+      "titlePhotos2": "photos to download",
+      "subtitlePhotos": "Click <b class='blue'> download </b> to get your photos in high quality",
+      "detailsPhotos": "downloaded photos",
+      "photosSelectStatus": "selected photos of",
+      "togglePhotosSection": "all the photos on this tab",
+      "togglePhotos": "all the photos",
+      "selectPhotos": "Select",
+      "unselectPhotos": "Unselect",
+      "alertsPhotos1": "You have two months from",
+      "alertsPhotos2": "to download and save your photos. After this date the photos will be removed from our server",
+      "alertsPhotos3": "Make sure to save your photos since in two months from",
+      "alertsPhotos4": "will be removed from our servers",
+      "alertsDownloadLimit": "You have exceeded the limit of photos to download",
+      "download": "Download",
+      "photos": "Photos",
+      "bank_data": {
+        "title": "Bank details",
+        "complete_data": "You are just one step away, please update your <b>bank details</b> in cases where we need to make you a transfer.",
+        "bank_name": "Bank name",
+        "bank_addr": "Bank address",
+        "fullname": "Full name (as shown in your bank statement)",
+        "home_address": "Personal address (as shown in your bank statement)"
+      },
+      "alertsCustomer": {
+        "missingData": "You need to enter your phone number and region to make a reservation",
+        "shareNetTitle": "I authorize Memorick to share my photos on social networks",
+        "shareNetDetails": "Thank you for helping us to get more people to know about our work through incredible travel stories like yours!",
+        "shareSubDetails": "By accepting, receive a DISCOUNT for <strong class = 'blue'> $20USD </strong> valid for your next photoshoot"
+      },
+      "alertsPhotographer": {
+        "accept_terms": "An email has been sent to you with the Terms and Conditions of the system, enter and click 'Accept' to have your account approved, if you have not received this email, contact info@memorick.com",
+        "active_acount": "You have accepted the Terms and Conditions, the Memorick team has been notified and your account is in the process of being activated, in case you have any doubts with the activation of your account contact us at info@memorick.com"
+      },
+      "logout": "Sign out",
+      "tabs": {
+        "next": "Upcoming photoshoots",
+        "photos": "Photos",
+        "history": "History"
+      },
+      "status": "STATUS",
+      "dest": "DESTINATION",
+      "occasion": "OCCASION",
+      "date": "SESSION DATE",
+      "selected_pack": "SELECTED PACKAGE",
+      "price": "PRICE",
+      "advance": "BOOKING FEE",
+      "advancepay": "BOOKING FEE PAID",
+      "discount": "DISCOUNT",
+      "data": "YOUR DATA",
+      "pending": "PENDING",
+      "comments": "COMMENTS",
+      "chatTitle": "Talk about your session with your photographer",
+      "greeting": "Hello",
+      "nextSession": "Where will your next photoshoot be?",
+      "noNext": "You have no upcoming sessions, to make a reservation visit our",
+      "destinations": "destinations",
+      "photos_title": "Beautiful memories, right?",
+      "photos_desc": "Here you will see all the photos of your sessions that are available for download.",
+      "photographer": "Photographer",
+      "modif": {
+        "part1": "When making a change or cancellation a charge will be made according to our",
+        "terms": "Changes or Cancellations Policies",
+        "part2": "Cancellations or changes of time, destination and / or number of people are subject to approval by Memorick and availability of the photographer. <br><br>Confirmation of a change requires the approval of the Memorick staff.<br> <small>It is not possible to manage changes directly between client and photographer.</small><br><br>Changes or cancellations must be requested at least 48 hours prior to the photo session.",
+        "what": "What do you want to do?",
+        "change": "Change",
+        "change_title": "What do you want to change about your session?",
+        "change_opts": {
+          "one": "Day",
+          "two": "Hour",
+          "three": "Place"
+        },
+        "tell_us": "Tell us a little more",
+        "tell_us_desc": "Provide details of the change you want to make",
+        "remember": "Remember to read our",
+        "cancel": "Cancel my photoshoot",
+        "cancel_desc": "When requesting a cancellation a charge will be made according to our",
+        "no_show": "In case of not showing up for the session, likewise, a charge will be made according to our",
+        "help_us": "Help us by respecting the valuable time of our photographers so that in case you decide to cancel, the photographer does not have to show at the meeting point."
+      },
+      "memories": "Your memories in one place.",
+      "invite_friends": "invite your friends.",
+      "reffer": "Invite your friends to join <b style = 'color: #fa66cd;'>Memorick</b> for each person who hires an experience, you will receive <b style = 'color: #fa66cd;'>$20USD</b> credit.",
+      "share": "Share your link to send invitations.",
+      "photos_upload": {
+        "weight": "Your photos should not exceed 10 MB and we recommend you upload as many photos as possible so that the client selects their favorites",
+        "min": "minimum",
+        "max": "maximum 120",
+        "exceed": "In case of exceeding 10 MB, optimize your photos",
+        "loading": "Loading selected photos",
+        "wait": "please wait...",
+        "left": "photos to upload from the package",
+        "uploaded": "Fotos guardadas en baja calidad y con nuestra marca de agua"
+      },
+      "extra-pack": "*By purchasing an extra photo package you agree to our"
+    },
+    "buttons": {
+      "save": "Save",
+      "edit": "Request change or cancellation",
+      "agree": "I agree.",
+      "cancel": "Cancel",
+      "sol_change": "Request change",
+      "sol_cancel": "Request cancellation",
+      "send_inv": "Send Invitations",
+      "copy_link": "Copy Link"
+    },
+    "placeholders": {
+      "enter_emails": "Enter your friend's email"
+    }
+  },
+  "chat": {
+    "labels": {
+      "not": "It seems like you don't have any photoshoots pending."
+    },
+    "placeholders": {
+      "write": "Write a message."
+    }
+  },
+  "order-details": {
+    "labels": {
+      "date": "Date",
+      "hour": "Time",
+      "destination": "Destination"
+    }
+  },
+  "tables": {
+    "labels": {
+      "back": "Go back",
+      "next": "Continue",
+      "client": "Client",
+      "photographer": "Photographer",
+      "destination": "Destination",
+      "date": "Date",
+      "status": "Status",
+      "actions": "Actions"
+    }
+  }
+}

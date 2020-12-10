@@ -1,0 +1,17 @@
+
+.el-rate__icon {
+  font-size: 1rem !important
+}
+
+.el-dialog__title {
+  font-weight: bold;
+  font-size: 1.3rem
+}
+
+.el-collapse-item__header {
+  background-color: #aa66cc;
+  color: white
+}
+.el-collapse-item__wrap {
+  background-color: #aa66cc;
+}

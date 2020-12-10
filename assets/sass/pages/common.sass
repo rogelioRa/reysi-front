@@ -1,0 +1,166 @@
+@import "~/assets/sass/config/_variables"
+
+body
+  overflow-x: hidden
+/* Image */
+
+.logo
+  border: 0
+  display: inline-block
+  position: relative
+
+  img
+    padding: 10px 0px
+    height: 100px
+
+.image
+  border-radius: 6px
+  border: 0
+  display: inline-block
+  position: relative
+
+  img
+    border-radius: 6px
+    display: block
+
+  &.left
+    float: left
+    padding: 0 1.5em 1em 0
+    top: 0.25em
+
+  &.right
+    float: right
+    padding: 0 0 1em 1.5em
+    top: 0.25em
+
+  &.fit, &.fit2
+    display: block
+    margin: 0 0 2em 0
+    width: 100%
+
+  &.fit
+    &.left
+      display: block
+      margin: 0 0 2em 0
+      width: 50%
+      max-width: 50%
+
+    img
+      display: block
+      width: 100%
+
+  &.fit2 img
+    display: block
+    width: 50%
+    margin-left: auto
+    margin-right: auto
+
+  &.fit3 img
+    display: block
+    width: 20%
+    margin-left: auto
+    margin-right: auto
+    padding: 20px
+
+  &.fit.left img
+    display: block
+    width: 50%
+
+/* List
+
+ol
+  list-style: decimal
+  margin: 0 0 2em 0
+  padding-left: 1.25em
+
+  li
+    padding-left: 0.25em
+
+ul
+  list-style: disc
+  margin: 0 0 2em 0
+  padding-left: 1em
+
+  li
+    padding-left: 0.5em
+
+  &.alt
+    list-style: none
+    padding-left: 0
+
+    li
+      border-top: solid px rgba(144, 144, 144, 0.25)
+      padding: 0.5em 0
+
+      &:first-child
+        border-top: 0
+        padding-top: 0
+
+  &.icons
+    cursor: default
+    list-style: none
+    padding-left: 0
+
+    li
+      display: inline-block
+      padding: 0 1.25em 0 0
+
+      &:last-child
+        padding-right: 0
+
+      .icon:before
+        font-size: 1.5em
+
+  &.actions
+    cursor: default
+    list-style: none
+    padding-left: 0
+
+    li
+      display: inline-block
+      padding: 0 1em 0 0
+      vertical-align: middle
+
+      &:last-child
+        padding-right: 0
+
+    &.small li
+      padding: 0 0.5em 0 0
+
+    &.vertical
+      li
+        display: block
+        padding: 1em 0 0 0
+
+        &:first-child
+          padding-top: 0
+
+        > *
+          margin-bottom: 0
+
+      &.small li
+        padding: 0.5em 0 0 0
+
+        &:first-child
+          padding-top: 0
+
+    &.fit
+      display: table
+      margin-left: -1em
+      padding: 0
+      table-layout: fixed
+      width: calc(100% + 1em)
+
+      li
+        display: table-cell
+        padding: 0 0 0 1em
+
+        > *
+          margin-bottom: 0
+
+      &.small
+        margin-left: -0.5em
+        width: calc(100% + 0.5em)
+
+        li
+          padding: 0 0 0 0.5em
