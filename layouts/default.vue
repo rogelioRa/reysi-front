@@ -1,6 +1,6 @@
 <script src="./js/default.js"></script>
 <template>
-  <div id="top" v-loading.fullscreen.lock="$store.state.admin.fullPageLoading">
+  <div v-loading.fullscreen.lock="$store.state.admin.fullPageLoading">
     <header id="header" class="skel-layers-fixed">
       <a href="/" class="logo"><img src="/images/logo.png" alt="Proveedora Reysi" /></a>
       <nav id="nav">

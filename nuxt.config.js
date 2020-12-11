@@ -79,6 +79,7 @@ export default {
     '~/plugins/i18n.js',
     '~/plugins/axios.js',
     '~/plugins/lazy-load.js',
+    '~/plugins/reysi.js',
     { src: '~/plugins/vue-agile', ssr: false },
     { src: '~/plugins/vue-carousel', ssr: false },
     { src: '~/plugins/vcalendar', ssr: false }

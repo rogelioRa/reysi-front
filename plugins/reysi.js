@@ -1,12 +1,8 @@
 export default () => {
-  console.log(
-    '%c                   ',
-    'font-family:system-ui;color:#fff;padding:20px;background-image:url(https://quasar.uno/isotipo.png);background-size:contain;background-position:center center;background-repeat:no-repeat;font-weight: bold; font-size:25px;padding-bottom:35px;padding-top:60px'
-  )
-
-  console.log(
-    '%cDesarrollado con 💖 por Supernova',
-    'font-family:system-ui;font-size:10px;background:#313162;color:#fff;padding:5px;background-repeat:no-repeat;font-weight: bold;'
-  )
-  console.log('https://supernovaapps.com.mx')
+  var body = document.getElementsByTagName('body')[0]
+  body.setAttribute('id', 'top')
+  var nav = document.getElementById('navPanel')
+  if (window.screen.width < 800) {
+    nav.innerHTML = '<div data-action="moveElement" data-args="nav"><div id="skel-layers-placeholder-nav"></div><nav id="nav" class="skel-layers-moved"><ul><li><a href="/" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Inicio</a></li> <li><a href="/nosotros" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Nosotros</a></li> <li><a href="/catalogo" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Catálogo</a></li> <li><a href="/contacto" class="button special" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Contacto</a></li></ul></nav></div>'
+  }
 }
