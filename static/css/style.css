@@ -937,6 +937,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		padding-left: 10rem;
 		box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.25);
 	}
 
@@ -960,7 +961,7 @@
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			right: 1.25em;
+			right: 10rem;
 			top: 0;
 			vertical-align: middle;
 		}
@@ -968,6 +969,7 @@
 			#header nav > ul {
 				list-style: none;
 				margin: 0;
+				font-size: 14px;
 				padding-left: 0;
 			}
 

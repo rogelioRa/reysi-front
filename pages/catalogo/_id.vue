@@ -30,7 +30,7 @@
                   <p>MODELO: {{ product.MODELO }}</p>
                   <p>MEDIDAS{{ product.MEDIDAS }}</p>
                   <p>Categoría: {{ product.CATEGORIA }}</p>
-                  <button v-b-modal.modal-1 class="button big special">FICHA TÉCNICA</button>
+                  <button v-b-modal.modal-1 class="button big special btn-details">FICHA TÉCNICA</button>
               </div>
           </div>
       </div>

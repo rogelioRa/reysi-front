@@ -10,8 +10,7 @@
     </section>
     <div class="container-fluid">
          <div class="row" style="padding:75px;" v-if="!$store.state.admin.fullPageLoading">
-            <div class="col-1" />
-            <div class="col-2">
+            <div class="col-6 col-lg-4 col-xs-12 col-sm-5 offset-xl-1 col-xl-2">
                 <section id="categorySidebar">
                     <h3>Categorías</h3>
                         <ul class="alt">
@@ -19,26 +18,21 @@
                         </ul>
                 </section>
             </div>
-            <div class="col-8">
+            <div class="col-lg-8 col-lg-8 col-xs-12 col-sm-7 col-xl-9">
                 <div class="row">
-                    <div class="col-4" v-for="product in products" :key="product.ID_CART">
-                        <b-card
-                            :title="product.NART"
-                            :img-src="routeImage + product.CART + '.' + product.EXTENCION"
-                            img-alt="Image"
-                            img-top
-                            tag="article"
-                            style="max-width: 20rem;"
-                            class="mb-2"
-                        >
-                            <b-card-text>
-                            MARCA: {{product.MARCA}}
-                            <br>
-                            MEDIDAS: {{product.MEDIDAS}}
-                            </b-card-text>
-
-                            <b-button :href="'/catalogo/'+ product.ID_CART" variant="primary bg-primary">VER PRODUCTO</b-button>
-                        </b-card>
+                    <div class="col-lg-6 col-12 col-md-12 col-xl-4 col-sm-12" v-for="product in products" :key="product.ID_CART">
+                     <div class="card mb-5" style="width: 18rem;">
+                            <img class="card-img-top" :src="routeImage + product.CART + '.' + product.EXTENCION" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">{{product.NART}}</h4>
+                                <b-card-text>
+                                MARCA: {{product.MARCA}}
+                                <br>
+                                MEDIDAS: {{product.MEDIDAS}}
+                                </b-card-text>
+                                    <b-button :href="'/catalogo/'+ product.ID_CART" variant="primary bg-primary btn-details">VER PRODUCTO</b-button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
