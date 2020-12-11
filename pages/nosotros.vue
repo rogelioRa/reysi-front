@@ -15,13 +15,13 @@
             </header>
             <div class="container">
                 <div class="row">
-                    <div class="6u">
-                        <section>
+                    <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-xs-12 col-sm-12 order-xl-1 order-lg-1 order-2">
+                        <section class="mt-lg-4 mt-xl-4">
                             <p>Inició en el año de 1970 en la ciudad de Gómez Palacio, Durango, cuando Don Benjamín Reynoso Ibarra y su esposa la Sra. Irene Silva Contreras crearon un negocio de venta de ropa, blancos y novedades. Con el paso del tiempo fueron incrementando sus oportunidades de mercado iniciando a vender medio mayoreo y mayoreo.</p>
                             <p>Tambien se fueron diversificando los productos como hasta el día de hoy. Hasta el año de 1989 se decidió darle a la empresa el nombre comercial de "PROVEEDORA REYSI" que proviene de los apellidos paternos de ambos señores.</p>
                         </section>
                     </div>
-                    <div class="6u">
+                    <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-xs-12 col-sm-12 order-xl-2 order-lg-2 order-1">
                         <section style="padding: 20px 0">
                             <a href="#" class="image fit"><img src="images/logo50.png" alt="" /></a>
                         </section>
