@@ -40,16 +40,17 @@ export default {
       let _products = this.$store.state.products.products.filter(_pro => _pro.CATEGORIA === this.categoryActive) // get products from store
       _products = _products.slice(0, 9)
       console.log('this productos category active', this.category, _products)
-      const productsByPage = Math.ceil(_products.length / 3) // get number rows
-      let begin = 1 // page run time
-      var rows = []
-      console.log(productsByPage, productsByPage >= begin, 'product by page')
-      while (begin <= productsByPage && begin <= 10) {
-        rows.push(this.paginate(_products, 3, begin))
-        begin += 1
-      }
-      console.log(rows, 'here products')
-      return rows
+      return _products
+      // const productsByPage = Math.ceil(_products.length / 3) // get number rows
+      // let begin = 1 // page run time
+      // var rows = []
+      // console.log(productsByPage, productsByPage >= begin, 'product by page')
+      // while (begin <= productsByPage && begin <= 10) {
+      //   rows.push(this.paginate(_products, 3, begin))
+      //   begin += 1
+      // }
+      // console.log(rows, 'here products')
+      // return rows
       // return this.$store.state.products.products
     }
   },

@@ -3,14 +3,15 @@
 <template>
   <div>
 <!-- Banner -->
-        <section id="banner" style="background-image: url('/images/banner2.jpg')">
-            <div class="inner">
-                <h2>Catálogo | {{category}}</h2>
-            </div>
-        </section>
-
-        <div class="row" style="padding:75px;" v-if="!$store.state.admin.fullPageLoading">
-            <div class="4u">
+    <section id="banner" style="background-image: url('/images/banner2.jpg')">
+        <div class="inner">
+            <h2>Catálogo | {{category}}</h2>
+        </div>
+    </section>
+    <div class="container-fluid">
+         <div class="row" style="padding:75px;" v-if="!$store.state.admin.fullPageLoading">
+            <div class="col-1" />
+            <div class="col-2">
                 <section id="categorySidebar">
                     <h3>Categorías</h3>
                         <ul class="alt">
@@ -18,22 +19,31 @@
                         </ul>
                 </section>
             </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-4" v-for="product in products" :key="product.ID_CART">
+                        <b-card
+                            :title="product.NART"
+                            :img-src="routeImage + product.CART + '.' + product.EXTENCION"
+                            img-alt="Image"
+                            img-top
+                            tag="article"
+                            style="max-width: 20rem;"
+                            class="mb-2"
+                        >
+                            <b-card-text>
+                            MARCA: {{product.MARCA}}
+                            <br>
+                            MEDIDAS: {{product.MEDIDAS}}
+                            </b-card-text>
 
-            <div class="8u">
-                <div class="row" v-for="(row, index) in products" :key="getIndex(row,index)">
-                    <div class="3u" v-for="product in row" :key="product.ID_CART">
-                        <section class="section special">
-                            <a :href="'/catalogo/'+product.ID_CART" class="image fit"><img :src="routeImage + product.CART + '.' + product.EXTENCION" width="150" heigth="150"/></a>
-                            <h3>{{ product.NART }}</h3>
-                            <p class="product-details"> Marca: {{product.MARCA}} </p>
-                            <p class="product-details" v-if="product.MODELO"> MODELO: {{product.MODELO}} </p>
-                            <p class="product-details"> MEDIDAS: {{product.MEDIDAS}} </p>
-                            <a :href="'/catalogo/'+product.ID_CART" class="button special mt-5">Ver Producto</a>
-                        </section>
+                            <b-button :href="'/catalogo/'+ product.ID_CART" variant="primary bg-primary">VER PRODUCTO</b-button>
+                        </b-card>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
   </div>
 </template>
 

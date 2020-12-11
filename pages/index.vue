@@ -16,7 +16,7 @@
       <section id="one" class="wrapper style1">
         <header class="major">
           <h2>Nuestro Catálogo</h2>
-          <p>Productos que harán tu vida más cómoda</p>
+          <p class="mt-4">Productos que harán tu vida más cómoda</p>
         </header>
         <div class="container">
           <div class="row"  v-if="!$store.state.admin.fullPageLoading">
@@ -27,7 +27,9 @@
                 <p class="product-details"> Marca: {{product.MARCA}} </p>
                 <p class="product-details" v-if="product.MODELO"> MODELO: {{product.MODELO}} </p>
                 <p class="product-details"> MEDIDAS: {{product.MEDIDAS}} </p>
-                <a :href="'/catalogo/'+ product.ID_CART" class="button special mt-4">Ver Producto</a>
+                <center>
+                  <a :href="'/catalogo/'+ product.ID_CART" class="button special mt-4">Ver Producto</a>
+                </center>
               </section>
             </div>
           </div>
@@ -38,7 +40,7 @@
     <section id="two" class="wrapper style2">
       <header class="major">
         <h2>Todo lo que buscas en un solo lugar</h2>
-        <p>Lo mejor en electrodomesticos y linea blanca</p>
+        <p class="mt-4">Lo mejor en electrodomesticos y linea blanca</p>
       </header>
       <div class="container">
         <div class="row">

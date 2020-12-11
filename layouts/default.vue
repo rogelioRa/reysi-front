@@ -2,13 +2,13 @@
 <template>
   <div v-loading.fullscreen.lock="$store.state.admin.fullPageLoading">
     <header id="header" class="skel-layers-fixed">
-      <a href="/" class="logo"><img src="/images/logo.png" alt="Proveedora Reysi" /></a>
+      <a href="/" class="logo"><img class="ml-4" src="/images/logo_50.png" alt="Proveedora Reysi" /></a>
       <nav id="nav">
         <ul>
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/nosotros">Nosotros</a></li>
-          <li><a href="/catalogo">Catálogo</a></li>
-          <li><a href="/contacto" class="button special">Contacto</a></li>
+          <li><a href="/">INICIO</a></li>
+          <li><a href="/nosotros">NOSOTROS</a></li>
+          <li><a href="/catalogo">CATÁLOGO</a></li>
+          <li><a href="/contacto" class="button special">CONTACTO</a></li>
         </ul>
       </nav>
     </header>
@@ -22,9 +22,9 @@
                 <h3>Navega</h3>
                 <ul class="alt">
                   <li><a href="/">Inicio</a></li>
-                  <li><a href="/nosotros">Nosotros</a></li>
-                  <li><a href="/contacto">Contacto</a></li>
-                  <li><a href="/catalogo">Catálogo</a></li>
+                  <li><a href="/nosotros">NOSOTROS</a></li>
+                  <li><a href="/contacto">CONTACTO</a></li>
+                  <li><a href="/catalogo">CATÁLOGO</a></li>
                 </ul>
               </div>
               <div class="6u">

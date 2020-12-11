@@ -93,6 +93,7 @@ export default {
     '@nuxtjs/device',
     '@nuxtjs/google-gtag',
     '@bazzite/nuxt-optimized-images',
+    'bootstrap-vue/nuxt',
     ['nuxt-facebook-pixel-module', {
       pista: '',
       pixelId: '2967684143281562',

@@ -15,6 +15,7 @@ export default {
           'Content-Type': 'application/json'
         }
       }).then(result => {
+        console.log(result.data, 'here cart string')
         const cart = JSON.parse(result.data)
         this.products = cart.Cat01
         this.$store.commit('products/setProducts', this.products)
