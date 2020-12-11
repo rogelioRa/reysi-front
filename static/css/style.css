@@ -1,5 +1,13 @@
 @charset "UTF-8";
 @import url(/css/font-awesome.min.css);
+@font-face {
+	font-family: 'BIG_JOHN';
+	src: url('/css/FONTSREYSI/BIG_JOHN/BIG_JOHN.otf'); /* IE9 Compat Modes */
+  }
+  @font-face {
+	font-family: 'Open_Sans';
+	src: url('/css/FONTSREYSI/Open_Sans/OpenSans-Regular.ttf'); /* IE9 Compat Modes */
+  }
 /* @import url("http://fonts.googleapis.com/css?family=Open_Sans:500,300"); */
 
 /*
@@ -21,7 +29,13 @@
 		font-weight: 300;
 		line-height: 1.75em;
 	}
-
+	a,p,span,li,ol,div {
+		font-family: 'Open_Sans' !important;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		font-family: 'BIG_JOHN' !important;
+		font-weight: 700;
+	}
 	a {
 		color: #629DD1;
 		text-decoration: none;
