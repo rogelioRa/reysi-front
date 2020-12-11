@@ -50,7 +50,7 @@
               <h3>División Proveedora</h3>
               <p>Encargada de proveer articulos de cocina, utensilios, blancos, electrodomésticos.  </p>
               <ul class="actions">
-                <li><a href="/catalogo" class="button alt">Ir al catálogo</a></li>
+                <li><a :href="'/divicion/'+0" class="button alt">Ir al catálogo</a></li>
               </ul>
             </section>
           </div>
@@ -60,7 +60,7 @@
               <h3>División fabrica</h3>
               <p>Aquí encontraras productos para el hogar en general tales como electrónica, línea blanca, muebles en general.</p>
               <ul class="actions">
-                <li><a href="/catalogo" class="button alt">Ir al catálogo</a></li>
+                <li><a :href="'/divicion/'+1" class="button alt">Ir al catálogo</a></li>
               </ul>
             </section>
           </div>
