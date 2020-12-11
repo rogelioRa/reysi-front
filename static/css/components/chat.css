@@ -1,0 +1,11 @@
+.quick-chat-container .container-message-manager {
+  background-color: #efefef;
+}
+.quick-chat-container .container-message-display {
+  max-height: 26rem!important;
+  min-height: 26rem!important;
+  overflow: auto!important;
+}
+.quick-chat-container .container-message-manager {
+  box-shadow: none;
+}

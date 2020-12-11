@@ -23,6 +23,18 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/images/favicon.ico' },
       {
         rel: 'stylesheet',
+        href: 'https://reysi.uprevenue.mx/css/skel.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://reysi.uprevenue.mx/css/style.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://reysi.uprevenue.mx/css/style-xlarge.css'
+      },
+      {
+        rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css?family=DM+Sans|Montserrat&display=swap'
       },
@@ -34,27 +46,32 @@ export default {
     script: [
       {
         src:
-          'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
-      },
-      { src: 'https://www.googletagmanager.com/gtag/js?id=AW-616006218' },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js',
+          'https://reysi.uprevenue.mx/js/jquery.min.js',
         type: 'text/javascript'
       },
       {
         src:
-          'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js',
+          'https://reysi.uprevenue.mx/js/skel.min.js',
+        type: 'text/javascript'
+      },
+      {
+        src:
+          'https://reysi.uprevenue.mx/js/skel-layers.min.js',
+        type: 'text/javascript'
+      },
+      {
+        src:
+          'https://reysi.uprevenue.mx/js/init2.js',
         type: 'text/javascript'
       }
     ]
   },
   loading: { color: '#044484' },
-  css: [
-    '~/assets/css/skel.css',
-    '~/assets/css/style.css',
-    '~/assets/css/style-xlarge.css'
-  ],
+  // css: [
+  //   '~/assets/css/skel.css',
+  //   '~/assets/css/style.css',
+  //   '~/assets/css/style-xlarge.css'
+  // ],
   plugins: [
     '@/plugins/element-ui',
     '~/plugins/v-viewer.js',
@@ -62,14 +79,8 @@ export default {
     '~/plugins/i18n.js',
     '~/plugins/axios.js',
     '~/plugins/lazy-load.js',
-    { src: '~/plugins/jquery.js', ssr: false },
-    { src: '~/plugins/stripe.js', ssr: false },
-    { src: '~/plugins/tidio.js', ssr: false },
-    { src: '~/plugins/paypal.js', ssr: false },
     { src: '~/plugins/vue-agile', ssr: false },
     { src: '~/plugins/vue-carousel', ssr: false },
-    { src: '~/plugins/vue-owl-carousel.js', ssr: false },
-    { src: '~/plugins/vue-phone-input.js', ssr: false },
     { src: '~/plugins/vcalendar', ssr: false }
   ],
 
@@ -77,10 +88,8 @@ export default {
     id: 'UA-96276663-6'
   }]],
   modules: [
-    'bootstrap-vue/nuxt',
     '@nuxtjs/axios',
     '@nuxtjs/device',
-    'vue-sweetalert2/nuxt',
     '@nuxtjs/google-gtag',
     '@bazzite/nuxt-optimized-images',
     ['nuxt-facebook-pixel-module', {
