@@ -7,8 +7,8 @@
           <h2>Proveedora Reysi</h2>
           <p>Productos para el hogar, blancos y novedades </p>
           <ul class="actions">
-            <li><a href="https://reysi.uprevenue.mx/admin-reysi-2020/login" class="button big special">Iniciar Sesion</a></li>
-            <li><nuxt-link to="/catalogo/" class="button big alt">Ver Catálogo</nuxt-link></li>
+            <li><a href="/catalogo" class="button big special">Ver catalogo</a></li>
+            <li><nuxt-link to="/contacto/" class="button big alt">Contacto</nuxt-link></li>
           </ul>
         </div>
       </section>

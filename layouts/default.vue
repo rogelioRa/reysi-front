@@ -54,8 +54,8 @@
             </div>
           </div>
         <ul class="copyright">
-          <li>&copy; Copyright. Proveedora Reysi</li>
-          <li>Design: <a href="http://uprevenue.mx">Uprevenue.mx</a></li>
+          <li>&copy; Todos los derechos reservados. Proveedora Reysi</li>
+          <li>Desarrollado por: <a href="http://uprevenue.mx">Uprevenue.mx</a></li>
         </ul>
       </div>
     </footer>
