@@ -16,8 +16,8 @@ export default {
         }
       }).then(result => {
         console.log(result.data, 'here cart string')
-        const cart = JSON.parse(result.data)
-        this.products = cart.Cat01
+        const cart = result.data
+        this.products = cart
         this.$store.commit('products/setProducts', this.products)
         this.$store.commit('admin/setFullPageLoading', false)
       })

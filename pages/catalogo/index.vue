@@ -10,7 +10,7 @@
     </section>
     <div class="container-fluid">
          <div class="row" style="padding:75px;" v-if="!$store.state.admin.fullPageLoading">
-            <div class="col-6 col-lg-4 col-xs-12 col-sm-5 offset-xl-1 col-xl-2">
+            <div class="col-6 col-lg-4 col-xs-12 col-sm-5 col-xl-3">
                 <section id="categorySidebar">
                     <h3>Categorías</h3>
                         <ul class="alt">
