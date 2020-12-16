@@ -1,9 +1,15 @@
+import paginator from '~/assets/js/tools/paginator.js'
+
 export default {
   data () {
     return {
       loading: true,
       category: '',
-      id: ''
+      id: '',
+      paginatorConfig: {},
+      perPage: 6,
+      currentPage: 1,
+      text: ''
     }
   },
   computed: {
@@ -11,7 +17,13 @@ export default {
       return this.category
     },
     product () {
-      const pro = this.$store.state.products.products.find(_pro => _pro.ID_CART === this.id) // get products from store
+      let pro = null
+      if (this.id === 0) {
+        const id = parseInt(localStorage.getItem('product_id'))
+        pro = this.$store.state.products.products.find(_pro => _pro.id === id) // get products from store
+      } else {
+        pro = this.$store.state.products.products.find(_pro => _pro.ID_CART === this.id) // get products from store
+      }
       console.log(pro, this.id, this.$store.state.products.products, 'here product active')
       if (pro) {
         return pro
@@ -21,6 +33,9 @@ export default {
     routeImage () {
       const route = `${process.env.URL_REYSI}/img/`
       return route
+    },
+    routeLocal () {
+      return process.env.BASE_URL + '/storage/'
     },
     categories () {
       const _products = this.$store.state.products.products // get products from store
@@ -36,28 +51,42 @@ export default {
       console.log(this.category, 'here categirues ibhects')
       return _categories
     },
+    currentPageComputed () {
+      return this.currentPage
+    },
     products () {
       let _products = this.$store.state.products.products.filter(_pro => _pro.CATEGORIA === this.categoryActive) // get products from store
-      _products = _products.slice(0, 9)
-      console.log('this productos category active', this.category, _products)
-      return _products
-      // const productsByPage = Math.ceil(_products.length / 3) // get number rows
-      // let begin = 1 // page run time
-      // var rows = []
-      // console.log(productsByPage, productsByPage >= begin, 'product by page')
-      // while (begin <= productsByPage && begin <= 10) {
-      //   rows.push(this.paginate(_products, 3, begin))
-      //   begin += 1
-      // }
-      // console.log(rows, 'here products')
-      // return rows
-      // return this.$store.state.products.products
+      if (this.text !== '') {
+        _products = _products.filter(_pro => {
+          const text = this.text
+          return _pro.id.toString().toLowerCase().indexOf(text) !== -1 || _pro.NART.toLowerCase().indexOf(text) !== -1 || _pro.CATEGORIA.toLowerCase().indexOf(text) !== -1
+        })
+      }
+      const paginated = paginator.paginate(_products, this.perPage)
+      this.paginatorConfig = paginated.meta
+      const indexPage = this.currentPageComputed - 1
+      return paginated.pageList[indexPage > this.paginatorConfig.pages ? 0 : indexPage]
     }
   },
   methods: {
     paginate (array, pageSize, pageNumber) {
       // human-readable page numbers usually start with 1, so we reduce 1 in the first argument
       return array.slice((pageNumber - 1) * pageSize, pageNumber * pageSize)
+    },
+    bgImage (product) {
+      const urlbg = product.stored_local === 0 ? (this.routeImage + product.CART + '.' + product.EXTENCION) : (this.routeLocal + product.image)
+      return urlbg
+    },
+    viewProduct (product) {
+      if (product.ID_CART) {
+        window.location = '/catalogo/' + product.ID_CART
+      } else {
+        localStorage.setItem('product_id', product.id)
+        window.location = '/catalogo/' + 0
+      }
+    },
+    changePaginate (index) {
+      this.currentPage = index
     },
     getIndex (row, index) {
       console.log(index, row)

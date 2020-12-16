@@ -1,9 +1,15 @@
+import paginator from '~/assets/js/tools/paginator.js'
+
 export default {
   data () {
     return {
       loading: true,
       category: '',
-      id: ''
+      id: '',
+      paginatorConfig: {},
+      perPage: 6,
+      currentPage: 1,
+      text: ''
     }
   },
   computed: {
@@ -22,6 +28,9 @@ export default {
       const route = `${process.env.URL_REYSI}/img/`
       return route
     },
+    routeLocal () {
+      return process.env.BASE_URL + '/storage/'
+    },
     categories () {
       const _products = this.$store.state.products.products.filter(_pro => _pro.FAB === this.id) // get products from store
       var _categories = []
@@ -36,11 +45,22 @@ export default {
       console.log(this.category, 'here categirues ibhects')
       return _categories
     },
+    currentPageComputed () {
+      return this.currentPage
+    },
     products () {
       let _products = this.$store.state.products.products.filter(_pro => _pro.CATEGORIA === this.categoryActive && _pro.FAB === this.id) // get products from store
-      _products = _products.slice(0, 9)
+      if (this.text !== '') {
+        _products = _products.filter(_pro => {
+          const text = this.text
+          return _pro.id.toString().toLowerCase().indexOf(text) !== -1 || _pro.NART.toLowerCase().indexOf(text) !== -1 || _pro.CATEGORIA.toLowerCase().indexOf(text) !== -1
+        })
+      }
       console.log('this productos category active', this.category, _products)
-      return _products
+      const paginated = paginator.paginate(_products, this.perPage)
+      this.paginatorConfig = paginated.meta
+      const indexPage = this.currentPageComputed - 1
+      return paginated.pageList[indexPage > this.paginatorConfig.pages ? 0 : indexPage]
       // const productsByPage = Math.ceil(_products.length / 3) // get number rows
       // let begin = 1 // page run time
       // var rows = []
@@ -62,9 +82,16 @@ export default {
     getIndex (row, index) {
       console.log(index, row)
     },
+    bgImage (product) {
+      const urlbg = product.stored_local === 0 ? (this.routeImage + product.CART + '.' + product.EXTENCION) : (this.routeLocal + product.image)
+      return urlbg
+    },
     setActivecategory (category) {
       console.log(category, 'here category')
       this.category = category
+    },
+    changePaginate (index) {
+      this.currentPage = index
     }
   },
   mounted () {

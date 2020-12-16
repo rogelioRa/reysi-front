@@ -23,7 +23,7 @@
       <div class="container">
           <div class="row">
               <div class="6u">
-                  <a class="image fit"><img :src="routeImage + product.CART + '.' + product.EXTENCION" alt="" /></a>
+                  <a class="image fit"><img :src="bgImage(product)" alt="" /></a>
               </div>
               <div class="6u">
                   <p>MARCA: {{ product.MARCA }}</p>

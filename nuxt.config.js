@@ -67,11 +67,7 @@ export default {
     ]
   },
   loading: { color: '#044484' },
-  // css: [
-  //   '~/assets/css/skel.css',
-  //   '~/assets/css/style.css',
-  //   '~/assets/css/style-xlarge.css'
-  // ],
+  css: ['element-ui/lib/theme-chalk/index.css', 'viewerjs/dist/viewer.css', '~/assets/css/animate.css'],
   plugins: [
     '@/plugins/element-ui',
     '~/plugins/v-viewer.js',
