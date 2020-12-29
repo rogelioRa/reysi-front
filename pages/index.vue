@@ -7,8 +7,8 @@
           <h2>Proveedora Reysi</h2>
           <p>Productos para el hogar, blancos y novedades </p>
           <ul class="actions">
-            <li><a href="/catalogo" class="button big special">Ver catálogo</a></li>
             <li><nuxt-link to="/contacto/" class="button big alt">Contacto</nuxt-link></li>
+            <li><a href="/catalogo" class="button big special">Formas de pago</a></li>
           </ul>
         </div>
       </section>
@@ -74,7 +74,9 @@
           <div class="8u">
             <section style="padding: 20px 0">
               <h2>Nuestra Empresa</h2>
-              <p>Inició en el año de 1970 en la ciudad de Gómez Palacio, Durango, cuando Don Benjamín Reynoso Ibarra y su esposa la Sra. Irene Silva Contreras crearon un negocio de venta de ropa, blancos y novedades. Con el paso del tiempo fueron incrementando sus oportunidades de mercado iniciando a vender medio mayoreo y mayoreo. Tambien se fueron diversificando los productos como hasta el día de hoy. Hasta el año de 1989 se decidió darle a la empresa el nombre comercial de "PROVEEDORA REYSI" que proviene de los apellidos paternos de ambos señores.</p>
+              <p>Somos una empresa mexicana con 50 años de experiencia en comercialización y reconocida a nivel norte en el país. Presentes en cada espacio de los hogares mexicanos brindando soluciones a sus necesidades.</p>
+              <p>Todo en productos para tu hogar desde línea blanca, electrodomésticos, blancos, muebles y más. Comprometidos con seguir ofreciendo variedad de productos en cada una de nuestras categorías.</p>
+              <p>Somos tu proveedor líder… Reysi de la Laguna.</p>
             </section>
             </div>
             <div class="4u">

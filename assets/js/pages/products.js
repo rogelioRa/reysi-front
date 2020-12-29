@@ -59,7 +59,7 @@ export default {
       if (this.text !== '') {
         _products = _products.filter(_pro => {
           const text = this.text
-          return _pro.id.toString().toLowerCase().indexOf(text) !== -1 || _pro.NART.toLowerCase().indexOf(text) !== -1 || _pro.CATEGORIA.toLowerCase().indexOf(text) !== -1
+          return _pro.id.toString().toLowerCase().indexOf(text) !== -1 || _pro.NART.toLowerCase().indexOf(text) !== -1 || _pro.CATEGORIA.toLowerCase().indexOf(text) !== -1 || _pro.MEDIDAS.toLowerCase().indexOf(text) !== -1
         })
       }
       const paginated = paginator.paginate(_products, this.perPage)
@@ -99,5 +99,10 @@ export default {
   mounted () {
     console.log(this.$route.params.id, 'here products store')
     this.id = parseInt(this.$route.params.id)
+    const search = localStorage.getItem('search')
+    if (search && search !== '') {
+      this.text = search
+      localStorage.removeItem('search')
+    }
   }
 }

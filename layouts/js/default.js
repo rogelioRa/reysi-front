@@ -1,11 +1,27 @@
 export default {
+  data: () => {
+    return {
+      visible: false,
+      search: ''
+    }
+  },
   computed: {
     fullScreenLoading () {
       return this.$store.state.admin.fullPageLoading
     }
   },
   methods: {
-    verifyAuth () {
+    searchProduct () {
+      console.log(this.search, 'here product to search')
+      localStorage.setItem('search', this.search)
+      this.search = ''
+      this.visible = false
+      window.location.href = '/catalogo'
+      // this.$router.push('/catalogo')
+    },
+    handleClose () {
+      // here logic close
+      this.visible = !this.visible
     },
     async getProductos () {
       // here code

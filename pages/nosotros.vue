@@ -17,8 +17,10 @@
                 <div class="row">
                     <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-xs-12 col-sm-12 order-xl-1 order-lg-1 order-2">
                         <section class="mt-lg-4 mt-xl-4">
-                            <p>Inició en el año de 1970 en la ciudad de Gómez Palacio, Durango, cuando Don Benjamín Reynoso Ibarra y su esposa la Sra. Irene Silva Contreras crearon un negocio de venta de ropa, blancos y novedades. Con el paso del tiempo fueron incrementando sus oportunidades de mercado iniciando a vender medio mayoreo y mayoreo.</p>
-                            <p>Tambien se fueron diversificando los productos como hasta el día de hoy. Hasta el año de 1989 se decidió darle a la empresa el nombre comercial de "PROVEEDORA REYSI" que proviene de los apellidos paternos de ambos señores.</p>
+                            <p>Se fundo el 11 de noviembre de 1971 en la ciudad de Gómez Palacio, Durango por don Benjamín Reynoso Ibarra y su esposa doña Irene Silva Contreras.</p>
+                            <p>Iniciaron con un negocio de venta de ropa, blancos y novedades, el cual fue incrementando sus oportunidades de mercado, por lo que comenzaron a vender a mayoreo. Con el paso de los años fueron diversificando los productos.</p>
+                            <p>En 1985 se decidió el nombre comercial de la empresa “PROVEEDORA REYSI”, el cual proviene de los apellidos paternos de ambos señores.</p>
+                            <p>El resto es historia de trabajo, humildad y dedicación a lo largo del tiempo.</p>
                         </section>
                     </div>
                     <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-xs-12 col-sm-12 order-xl-2 order-lg-2 order-1">
@@ -42,8 +44,7 @@
                     </div>
                     <div class="6u">
                         <section style="padding: 20px 0">
-                            <p>En el mismo año por iniciativa del hijo mayor, deciden empezar a expandirse a otras regiones. Comenzando con las ciudades de Chihuahua y Durango. Al paso del tiempo se opta por cubrir los estados de Chihuahua, Durango, Coahuila, Zacatecas, Nuevo León, Tamaulipas y San Luis Potosí. </p>
-                            <p>Para el año de 1990 se tomo la decisión de vender de productos de fabricación propia. Los productos son muebles de madera, poliéster y otros tipos de materiales. Teniendo distintas maquiladoras y cada una de ellas produciendo diferentes tipos de productos.</p>
+                            <p>A la fecha tenemos presencia en 7 estados del norte y contamos con unidades de servicio de transporte para su comercialización de todas las marcas líderes y propias de la misma, siendo un total de 150 colaboradores en diferentes áreas del GRUPO REYSI.</p>
                     </section>
                     </div>
 
@@ -79,7 +80,7 @@
                         <section class="special box">
                             <a href="#" class="image fit3"><img src="images/vision.png" alt="" /></a>
                             <h3>Visión</h3>
-                            <p>Posicionarnos como el proveedor líder en nuestro mercado a nivel norte del país, donde la logística y desarrollo de su entorno genere seguridad a sus clientes.          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</p>
+                            <p>Posicionarnos como el proveedor líder en nuestro mercado a nivel norte del país, donde la logística y desarrollo de su entorno genere seguridad a sus clientes.</p>
                         </section>
                     </div>
                 </div>
