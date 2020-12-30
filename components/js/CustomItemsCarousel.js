@@ -1,4 +1,4 @@
-import customItem from '~/components/customItem.vue'
+import customItem from '~/components/CustomItem.vue'
 import { Carousel, Slide } from 'vue-carousel'
 import paginator from '~/assets/js/tools/paginator.js'
 
