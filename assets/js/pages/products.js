@@ -7,7 +7,7 @@ export default {
       category: '',
       id: '',
       paginatorConfig: {},
-      perPage: 6,
+      perPage: 12,
       currentPage: 1,
       text: ''
     }

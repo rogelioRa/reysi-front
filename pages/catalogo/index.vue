@@ -9,7 +9,7 @@
         </div>
     </section>
     <div class="container-fluid">
-         <div class="row" style="padding:75px;" v-if="!$store.state.admin.fullPageLoading">
+         <div class="row" style="padding-top: 75px;padding-left:45px; padding-right:45px;" v-if="!$store.state.admin.fullPageLoading">
             <div class="col-6 col-lg-4 col-xs-12 col-sm-5 col-xl-3">
                 <section id="categorySidebar">
                     <h3>Categorías</h3>
@@ -40,6 +40,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row"  style="padding:25px;">
+            <div class="col-lg-8 offset-lg-4 col-sm-12 col-xs-12 col-12">
                 <el-pagination
                     hide-on-single-page
                     layout="prev, pager, next"

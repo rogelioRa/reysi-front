@@ -20,18 +20,7 @@
         </header>
         <div class="container">
           <div class="row"  v-if="!$store.state.admin.fullPageLoading">
-            <div class="4u" v-for="product in productsMonths" :key="product.ID_CART">
-              <section class="special box">
-                <a :href="'/catalogo/'+ product.ID_CART" class="image fit"><img :src="routeImage + product.CART + '.' + product.EXTENCION" alt="" /></a>
-                <h3> {{product.NART}} </h3>
-                <p class="product-details"> Marca: {{product.MARCA}} </p>
-                <p class="product-details" v-if="product.MODELO"> MODELO: {{product.MODELO}} </p>
-                <p class="product-details"> MEDIDAS: {{product.MEDIDAS}} </p>
-                <center>
-                  <a :href="'/catalogo/'+ product.ID_CART" class="button special mt-4">Ver Producto</a>
-                </center>
-              </section>
-            </div>
+            <CustomItemsCarousel :itemList="productsMonths" title="Prueba" />
           </div>
         </div>
       </section>
@@ -67,6 +56,19 @@
         </div>
       </div>
     </section>
+    <!-- Sub Hero -->
+      <section id="one" class="wrapper style1">
+        <header class="major">
+          <h2>Nuestras Marcas</h2>
+          <p class="mt-4">Contamos con las mejores marcas</p>
+        </header>
+        <div class="container">
+          <div class="row"  v-if="!$store.state.admin.fullPageLoading">
+            <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands" title="Prueba" />
+          </div>
+        </div>
+      </section>
+      <hr>
     <!-- Nuestra Empresa -->
     <section id="three" class="wrapper style1">
       <div class="container">
