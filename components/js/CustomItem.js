@@ -1,5 +1,4 @@
 import numeral from 'numeral'
-import ENV from '~/env.js'
 
 export default {
   props: {
@@ -39,7 +38,7 @@ export default {
       if (btn.classList.contains('active')) { btn.classList.remove('active') } else { btn.classList.add('active') }
     },
     goLink (_item) {
-      localStorage.setItem(ENV.keyProductSelected, JSON.stringify(_item))
+      // localStorage.setItem(ENV.keyProductSelected, JSON.stringify(_item))
       if (_item.link) {
         this.$router.push(_item.link)
       } else {
