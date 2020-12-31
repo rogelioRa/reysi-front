@@ -19,5 +19,5 @@
 </template>
 
 <style lang="sass" scoped>
-@import './sass/Customitem.sass'
+@import './sass/CustomItem.sass'
 </style>
