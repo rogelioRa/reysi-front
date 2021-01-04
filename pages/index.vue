@@ -16,7 +16,7 @@
       <section id="one" class="wrapper style1">
         <header class="major">
           <h2>Nuestro Catálogo</h2>
-          <p class="mt-4">Productos que harán tu vida más cómoda</p>
+          <p class="mt-2">Productos que harán tu vida más cómoda</p>
         </header>
         <div class="container">
           <div class="row"  v-if="!$store.state.admin.fullPageLoading">
@@ -29,7 +29,7 @@
     <section id="two" class="wrapper style2">
       <header class="major">
         <h2>Todo lo que buscas en un solo lugar</h2>
-        <p class="mt-4">Lo mejor en electrodomesticos y linea blanca</p>
+        <p class="mt-2">Lo mejor en electrodomesticos y linea blanca</p>
       </header>
       <div class="container">
         <div class="row">
@@ -60,7 +60,7 @@
       <section id="one" class="wrapper style1">
         <header class="major">
           <h2>Nuestras Marcas</h2>
-          <p class="mt-4">Contamos con las mejores marcas</p>
+          <p class="mt-2">Contamos con las mejores marcas</p>
         </header>
         <div class="container">
           <div class="row"  v-if="!$store.state.admin.fullPageLoading">

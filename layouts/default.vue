@@ -9,7 +9,7 @@
           <li><a href="/presencia"> PRESENCIA <i class="fa fa-truck"></i></a></li>
           <li class="mr-4"><a href="/contacto">CONTACTO <i class="fa fa-phone"></i></a></li>
           <li @click="visible=!visible" title="Buscar" class="icon-search-special"><i class="fa fa-search"></i></li>
-          <li title="Catálogo" class="icon-search-special"><a href="/catalogo"><i class="fa fa-shopping-cart"></i></a></li>
+          <li title="Catálogo" class="icon-search-special"><a href="/catalogo"><font-awesome-icon :icon="['fas','box-open']"  class="icon-delete"></font-awesome-icon></a></li>
         </ul>
       </nav>
     </header>
@@ -65,14 +65,13 @@
             <h3 class="title-footer">Horarios de atención</h3>
             <p class="mb-1">Lunes a viernes de 8:00 am a 4:00 pm</p>
             <p class="mb-1">Sábado de 8:00 am a 1:00 pm</p>
-            <p class="mb-1">Teléfono: +52 (871) 714 2103</p>
-            <p>Whatsapp: +52 (871) 149 2907</p>
             <ul class="icons">
-              <li><a href="tel:528717159986" class="icon fa-phone"><span class="label">Teléfono</span></a></li>
-              <li><a href="mailto:proveedorareysi@hotmail.com" class="icon fa-envelope"><span class="label">Correo</span></a></li>
-              <li><a href="https://www.facebook.com/Proveedora-REYSI-237512403124458" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="https://www.instagram.com/proveedora.reysi/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-              <li><a href="https://goo.gl/maps/w7zW86esBBY9YbiR8" class="icon fa-map-marker"><span class="label">Ubicación</span></a></li>
+              <li><a href="tel:528717142103" target="_blank" class="icon fa-phone"><span class="label">Teléfono</span></a></li>
+              <li><a href="https://wa.me/528711492907" target="_blank" class="icon" aria-hidden="true"><font-awesome-icon :icon="['fab','whatsapp']"  class="icon icon-whatsapp"></font-awesome-icon><span class="label">Whatsap</span></a></li>
+              <li><a href="mailto:proveedorareysi@hotmail.com" target="_blank" class="icon fa-envelope"><span class="label">Correo</span></a></li>
+              <li><a href="https://www.facebook.com/Proveedora-REYSI-237512403124458" target="_blank"  class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="https://www.instagram.com/proveedora.reysi/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="https://goo.gl/maps/w7zW86esBBY9YbiR8" target="_blank" class="icon fa-map-marker"><span class="label">Ubicación</span></a></li>
               </ul>
           </div>
             <div class="3u">
@@ -129,5 +128,9 @@
   }
   .el-dialog__wrapper{
     z-index:999999!important;
+  }
+  .icon-whatsapp{
+    font-size: 1.5rem !important;
+    font-weight: bold;
   }
 </style>

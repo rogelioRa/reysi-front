@@ -116,9 +116,6 @@ export default {
       }
     ]
   ],
-  'google-gtag': {
-    id: 'AW-616006218'
-  },
   optimizedImages: {
     optimizeImages: true
   },

@@ -4,8 +4,8 @@
   <div class="11u mr-4">
       <section class="special box" v-if="!isOnlyImage">
         <div @click="viewProduct(item)" class="bg-image-product" :style="'background-image: url('+ bgImage(item) +')'"/>
-        <h3> {{item.NART}} </h3>
-        <p class="product-details"> Marca: {{item.MARCA}} </p>
+        <h4 class="card-title mt-3"> {{item.NART}} </h4>
+        <p class="product-details"> MARCA: {{item.MARCA}} </p>
         <p class="product-details" v-if="item.MODELO"> MODELO: {{item.MODELO}} </p>
         <p class="product-details"> MEDIDAS: {{item.MEDIDAS}} </p>
         <center>
