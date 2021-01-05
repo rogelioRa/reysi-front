@@ -26,7 +26,7 @@
             <div class="col-lg-8 col-lg-8 col-xs-12 col-sm-7 col-xl-9">
                 <div class="row">
                     <div class="col-lg-6 col-12 col-md-12 col-xl-4 col-sm-12" v-for="product in products" :key="product.ID_CART">
-                     <div class="card mb-5" style="width: 18rem;">
+                     <div class="card mb-5" style="width: 100%;">
                             <div @click="viewProduct(product)" class="bg-image-product" :style="'background-image: url('+ bgImage(product) +')'"/>
                             <div class="card-body">
                                 <h4 class="card-title">{{product.NART}}</h4>

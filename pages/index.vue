@@ -55,6 +55,18 @@
         </div>
       </div>
     </section>
+    <!-- Sub Hero -->
+    <section id="one" class="wrapper style1">
+      <header class="major">
+        <h2>Nuestro Catálogo</h2>
+        <p class="mt-2">Productos que harán tu vida más cómoda</p>
+      </header>
+      <div class="container">
+        <div class="row"  v-if="!$store.state.admin.fullPageLoading">
+          <CustomItemsCarousel :itemList="productsMonths" title="Prueba" />
+        </div>
+      </div>
+    </section>
     <!-- Nuestra Empresa -->
     <section id="three" class="wrapper style1">
       <div class="container">
@@ -75,18 +87,6 @@
         </div>
       </div>
     </section>
-      <!-- Sub Hero -->
-      <section id="one" class="wrapper style2">
-        <header class="major">
-          <h2>Nuestro Catálogo</h2>
-          <p class="mt-2">Productos que harán tu vida más cómoda</p>
-        </header>
-        <div class="container">
-          <div class="row"  v-if="!$store.state.admin.fullPageLoading">
-            <CustomItemsCarousel :itemList="productsMonths" title="Prueba" />
-          </div>
-        </div>
-      </section>
   </div>
 </template>
 
