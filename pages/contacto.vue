@@ -4,7 +4,7 @@
   <div>
 
  <!-- Banner -->
- <section id="banner" style="background-image: url('/images/banner.jpg')" >
+ <section id="banner" style="background-image: url('/images/banner1.jpg')" >
     <div class="inner">
         <h2>Contacto</h2>
     </div>

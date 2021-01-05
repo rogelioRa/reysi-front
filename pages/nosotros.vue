@@ -2,7 +2,7 @@
 
 <template>
   <div>
- <section id="banner" style="background-image: url('/images/banner.jpg')" >
+ <section id="banner" style="background-image: url('/images/banner1.jpg')" >
             <div class="inner">
                 <h2>Acerca de Nosotros</h2>
             </div>

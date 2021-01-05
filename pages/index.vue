@@ -2,7 +2,7 @@
 
 <template>
   <div>
-      <section id="banner" style="background-image: url('/images/banner.jpg')">
+      <section id="banner" style="background-image: url('/images/banner1.jpg')">
         <div class="inner">
           <h2>Proveedora Reysi</h2>
           <p>Productos para el hogar, blancos y novedades </p>
@@ -12,20 +12,19 @@
           </ul>
         </div>
       </section>
-      <!-- Sub Hero -->
-      <section id="one" class="wrapper style1">
-        <header class="major">
-          <h2>Nuestro Catálogo</h2>
-          <p class="mt-2">Productos que harán tu vida más cómoda</p>
-        </header>
-        <div class="container">
-          <div class="row"  v-if="!$store.state.admin.fullPageLoading">
-            <CustomItemsCarousel :itemList="productsMonths" title="Prueba" />
-          </div>
+        <!-- Sub Hero -->
+    <section id="one" class="wrapper style1">
+      <header class="major">
+        <h2>Nuestras Marcas</h2>
+        <p class="mt-2">Contamos con las mejores marcas</p>
+      </header>
+      <div class="container">
+        <div class="row"  v-if="!$store.state.admin.fullPageLoading">
+          <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands" title="Prueba" />
         </div>
-      </section>
-
-      <!-- Divisiones -->
+      </div>
+    </section>
+    <!-- Divisiones -->
     <section id="two" class="wrapper style2">
       <header class="major">
         <h2>Todo lo que buscas en un solo lugar</h2>
@@ -56,19 +55,6 @@
         </div>
       </div>
     </section>
-    <!-- Sub Hero -->
-      <section id="one" class="wrapper style1">
-        <header class="major">
-          <h2>Nuestras Marcas</h2>
-          <p class="mt-2">Contamos con las mejores marcas</p>
-        </header>
-        <div class="container">
-          <div class="row"  v-if="!$store.state.admin.fullPageLoading">
-            <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands" title="Prueba" />
-          </div>
-        </div>
-      </section>
-      <hr>
     <!-- Nuestra Empresa -->
     <section id="three" class="wrapper style1">
       <div class="container">
@@ -89,6 +75,18 @@
         </div>
       </div>
     </section>
+      <!-- Sub Hero -->
+      <section id="one" class="wrapper style2">
+        <header class="major">
+          <h2>Nuestro Catálogo</h2>
+          <p class="mt-2">Productos que harán tu vida más cómoda</p>
+        </header>
+        <div class="container">
+          <div class="row"  v-if="!$store.state.admin.fullPageLoading">
+            <CustomItemsCarousel :itemList="productsMonths" title="Prueba" />
+          </div>
+        </div>
+      </section>
   </div>
 </template>
 
