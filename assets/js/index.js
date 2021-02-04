@@ -45,7 +45,7 @@ export default {
           image: '/images/brands/duna.jpg'
         },
         {
-          image: '/images/brands/ecko.jpg'
+          image: '/images/brands/ekco.jpg'
         },
         {
           image: '/images/brands/foodkeepers.jpg'
