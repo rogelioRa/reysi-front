@@ -6,46 +6,126 @@ export default {
       loading: true,
       brands: [
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_blackdecker2-190x190.jpg'
+          image: '/images/brands/adriver.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_hamiltonbeach-190x190.jpg'
+          image: '/images/brands/alcapet.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_cinsa-190x190.jpg'
+          image: '/images/brands/anfora.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_crisa-1-190x190.jpg'
+          image: '/images/brands/baby_mink.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_cubasa-190x190.jpg'
+          image: '/images/brands/black_decker.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_libbey-190x190.jpg'
+          image: '/images/brands/cinsa.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_oster1-190x190.jpg'
+          image: '/images/brands/crisa.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_proctorsilex-190x190.jpg'
+          image: '/images/brands/crock_pot.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_pyrorey-190x190.jpg'
+          image: '/images/brands/cubasa.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_tramontina1-190x190.jpg'
+          image: '/images/brands/cufin.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_anfora-1-190x190.jpeg'
+          image: '/images/brands/dafer.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_lunita-190x190.jpeg'
+          image: '/images/brands/dolmen.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_tavola1-190x190.jpeg'
+          image: '/images/brands/duna.jpg'
         },
         {
-          image: 'https://casola.mx/wp-content/uploads/2020/10/logo_valery-190x190.jpeg'
+          image: '/images/brands/ecko.jpg'
+        },
+        {
+          image: '/images/brands/foodkeepers.jpg'
+        },
+        {
+          image: '/images/brands/hamilton_beach.jpg'
+        },
+        {
+          image: '/images/brands/igoto.jpg'
+        },
+        {
+          image: '/images/brands/libbey.jpg'
+        },
+        {
+          image: '/images/brands/libbey2.jpg'
+        },
+        {
+          image: '/images/brands/lunita.jpg'
+        }
+      ],
+      brands2: [
+        {
+          image: '/images/brands/man.jpg'
+        },
+        {
+          image: '/images/brands/mexasia.jpg'
+        },
+        {
+          image: '/images/brands/mosa.jpg'
+        },
+        {
+          image: '/images/brands/navia.jpg'
+        },
+        {
+          image: '/images/brands/nisato.jpg'
+        },
+        {
+          image: '/images/brands/oster.jpg'
+        },
+        {
+          image: '/images/brands/plastic_trends.jpg'
+        },
+        {
+          image: '/images/brands/plastymet.jpg'
+        },
+        {
+          image: '/images/brands/presto.jpg'
+        },
+        {
+          image: '/images/brands/proctor_silex.jpg'
+        },
+        {
+          image: '/images/brands/providencia.jpg'
+        },
+        {
+          image: '/images/brands/pyrorey.jpg'
+        },
+        {
+          image: '/images/brands/san_miguel.jpg'
+        },
+        {
+          image: '/images/brands/santa_anita.jpg'
+        },
+        {
+          image: '/images/brands/santa_elenita.jpg'
+        },
+        {
+          image: '/images/brands/sunbeam.jpg'
+        },
+        {
+          image: '/images/brands/tavola.jpg'
+        },
+        {
+          image: '/images/brands/tramontina.jpg'
+        },
+        {
+          image: '/images/brands/valery.jpg'
+        },
+        {
+          image: '/images/brands/vasconia.jpg'
         }
       ]
     }

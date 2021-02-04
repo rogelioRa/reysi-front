@@ -17,7 +17,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-xs-12 col-sm-12 order-xl-1 order-lg-1 order-2">
                         <section class="mt-lg-4 mt-xl-4">
-                            <p>Se fundo el 11 de noviembre de 1971 en la ciudad de Gómez Palacio, Durango por don Benjamín Reynoso Ibarra y su esposa doña Irene Silva Contreras.</p>
+                            <p>Se fundo el 11 de noviembre de 1971 en la ciudad de Gómez Palacio, Durango por don Benjamín Reynoso Ibarra y su esposa Doña Irene Silva Contreras.</p>
                             <p>Iniciaron con un negocio de venta de ropa, blancos y novedades, el cual fue incrementando sus oportunidades de mercado, por lo que comenzaron a vender a mayoreo. Con el paso de los años fueron diversificando los productos.</p>
                             <p>En 1985 se decidió el nombre comercial de la empresa “PROVEEDORA REYSI”, el cual proviene de los apellidos paternos de ambos señores.</p>
                             <p>El resto es historia de trabajo, humildad y dedicación a lo largo del tiempo.</p>

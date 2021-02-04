@@ -34,15 +34,15 @@
         <div class="row double">
           <div class="8u">
             <div class="row collapse-at-2">
-              <div class="4u">
+              <div class="3u">
                 <h3 class="title-footer">Navega</h3>
                 <ul class="alt">
                   <li><a href="/">Inicio</a></li>
                   <li><a href="/contacto">Contacto</a></li>
-                  <li><a href="/nosotros">Formas de pago</a></li>
+                  <li><a href="#payment">Formas de pago</a></li>
                 </ul>
               </div>
-              <div class="4u">
+              <div class="3u">
                 <h3 class="title-footer">Nosotros</h3>
                 <ul class="alt">
                   <li><a href="/nosotros">Historia</a></li>
@@ -50,13 +50,18 @@
                   <li><a href="/mision">Misión y visión</a></li>
                 </ul>
               </div>
-              <div class="4u">
+              <div class="3u">
                 <h3 class="title-footer">Atención al cliente</h3>
                 <ul class="alt">
                 <li><a href="/devoluciones">Facturación</a></li>
                   <li><a href="/faq">Preguntas Frecuentes</a></li>
                   <li><a href="/privacidad">Solicita tu crédito</a></li>
-                  <li><a href="/terminos">Términos y Condiciones</a></li>
+                </ul>
+              </div>
+              <div class="3u">
+                <h3 class="title-footer">Políticas</h3>
+                <ul class="alt">
+                <li><a href="/devoluciones">Términos y Condiciones</a></li>
                 </ul>
               </div>
             </div>

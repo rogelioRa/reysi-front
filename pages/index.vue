@@ -8,7 +8,7 @@
           <p>Productos para el hogar, blancos y novedades </p>
           <ul class="actions">
             <li><nuxt-link to="/contacto/" class="button big alt">Contacto</nuxt-link></li>
-            <li><a href="/catalogo" class="button big special">Formas de pago</a></li>
+            <li><a href="#payment" class="button big special">Formas de pago</a></li>
           </ul>
         </div>
       </section>
@@ -20,7 +20,10 @@
       </header>
       <div class="container">
         <div class="row"  v-if="!$store.state.admin.fullPageLoading">
-          <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands" title="Prueba" />
+          <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands" :paginationEnabled="false" title="Prueba"/>
+        </div>
+        <div class="row"  v-if="!$store.state.admin.fullPageLoading">
+          <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands2" title="Prueba"/>
         </div>
       </div>
     </section>
@@ -82,6 +85,28 @@
             <div class="4u">
               <section style="padding: 0 20px">
                 <a href="#" class="image fit"><img src="images/logoprincipalnaranja.png" alt="" /></a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="payment" class="wrapper style2">
+      <header class="major">
+        <h2>Métodos de Pago</h2>
+        <p class="mt-2">Conoce las distintas opciones de pago que ofrecemos</p>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="6u">
+            <section style="padding: 0 50px" class="special">
+              <a href="#" style="padding: 0 50px" class="image fit"><img src="images/metodos_pago.png" alt="" /></a>
+              <h3>Métodos de Pago</h3>
+            </section>
+          </div>
+          <div class="6u">
+            <section style="padding: 0 50px" class="special">
+              <a href="#" style="padding: 0 50px" class="image fit"><img src="images/corresponsales_bancarios.png" alt="" /></a>
+              <h3>Corresponsales bancarios</h3>
             </section>
           </div>
         </div>

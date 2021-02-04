@@ -10,6 +10,7 @@ export default {
   },
   props: {
     title: { type: String },
+    paginationEnabled: { type: Boolean, default: true },
     itemList: { type: [Array, String], default: () => ([]) },
     isOnlyImage: { type: Boolean, default: false },
     perPageCustom: { type: [Array, String], default: () => [[400, 3], [768, 3], [1024, 3]] }
@@ -18,7 +19,7 @@ export default {
     count: 1,
     loading: false,
     currentPage: 1,
-    perPage: 16,
+    perPage: 20,
     paginatorConfig: {}
   }),
   computed: {

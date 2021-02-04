@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-xs-12 col-sm-12 order-xl-1 order-lg-1 order-2">
                     <section class="mt-lg-4 mt-xl-4">
-                        <p class="text-about">Somos una empresa mexicana con 50 años de experiencia en comercialización y reconocida a nivel norte en el país.</p>
+                        <p class="text-about">Somos una empresa mexicana con <b>50 años de experiencia</b> en comercialización y reconocida a nivel norte en el país.</p>
                         <p class="text-about">Presentes en cada espacio de los hogares mexicanos brindando soluciones a sus necesidades.</p>
                         <p class="text-about">Todo en productos para tu hogar desde línea blanca, electrodomésticos, blancos, muebles y más. Comprometidos con seguir ofreciendo variedad de productos en cada una de nuestras categorías.</p>
                     </section>
