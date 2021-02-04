@@ -61,7 +61,7 @@
               <div class="3u">
                 <h3 class="title-footer">Políticas</h3>
                 <ul class="alt">
-                <li><a href="/devoluciones">Términos y Condiciones</a></li>
+                <li><a href="/terminos">Términos y Condiciones</a></li>
                 </ul>
               </div>
             </div>
