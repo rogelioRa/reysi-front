@@ -2,7 +2,7 @@
 <template>
   <div v-loading.fullscreen.lock="$store.state.admin.fullPageLoading">
     <header id="header" class="skel-layers-fixed">
-      <a href="/" class="logo"><img class="ml-4" src="/images/logo_50.png" alt="Proveedora Reysi" /></a>
+      <a href="/" class="logo"><img class="ml-4" src="/images/logo-crop.png" alt="Reysi de la laguna" /></a>
       <nav id="nav">
         <ul>
           <li><a href="/">INGRESAR <i class="fa fa-user"></i></a></li>
@@ -84,7 +84,7 @@
             </div>
           </div>
         <ul class="copyright">
-          <li>&copy; {{new Date().getFullYear()}} Todos los derechos reservados. Proveedora Reysi</li>
+          <li>&copy; {{new Date().getFullYear()}} Todos los derechos reservados. Reysi de la laguna</li>
           <li>Desarrollado por: <a href="http://uprevenue.mx">Uprevenue.mx</a></li>
         </ul>
       </div>

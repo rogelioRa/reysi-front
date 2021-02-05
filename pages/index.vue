@@ -4,10 +4,9 @@
   <div>
       <section id="banner" style="background-image: url('/images/banner1.jpg')">
         <div class="inner">
-          <h2>Proveedora Reysi</h2>
+          <h2>Reysi de la laguna</h2>
           <p>Productos para el hogar, blancos y novedades </p>
           <ul class="actions">
-            <li><nuxt-link to="/contacto/" class="button big alt">Contacto</nuxt-link></li>
             <li><a href="#payment" class="button big special">Formas de pago</a></li>
           </ul>
         </div>
@@ -98,15 +97,17 @@
       <div class="container">
         <div class="row">
           <div class="6u">
-            <section style="padding: 0 50px" class="special">
-              <a href="#" style="padding: 0 50px" class="image fit"><img src="images/metodos_pago.png" alt="" /></a>
-              <h3>Métodos de Pago</h3>
+            <section class="special mt-p-0-50">
+              <h3 class="title-method-sm">Métodos de Pago</h3>
+              <a href="#" class="image fit mt-p-0-50"><img src="images/metodos_pago.png" alt="" /></a>
+              <h3 class="title-method">Métodos de Pago</h3>
             </section>
           </div>
           <div class="6u">
-            <section style="padding: 0 50px" class="special">
-              <a href="#" style="padding: 0 50px" class="image fit"><img src="images/corresponsales_bancarios.png" alt="" /></a>
-              <h3>Corresponsales bancarios</h3>
+            <section class="special mt-p-0-50">
+              <h3 class="title-method-sm">Corresponsales bancarios</h3>
+              <a href="#" class="image fit mt-p-0-50"><img src="images/corresponsales_bancarios.png" alt="" /></a>
+              <h3 class="title-method">Corresponsales bancarios</h3>
             </section>
           </div>
         </div>
