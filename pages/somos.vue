@@ -22,12 +22,39 @@
                     </section>
                 </div>
                 <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-xs-12 col-sm-12 order-xl-2 order-lg-2 order-1">
-                    <section style="padding: 20px 0">
-                        <a href="#" class="image fit"><img src="images/logo50.png" alt="" /></a>
-                    </section>
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="#" class="image fit"><img src="images/Estufa.png" alt="" /></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="#" class="image fit"><img src="images/Licuadora.png" alt="" /></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="#" class="image fit"><img src="images/Mueble.png" alt="" /></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="image fit"><img src="images/Olla.png" alt="" /></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="image fit"><img src="images/Sarten.png" alt="" /></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="image fit"><img src="images/Tazas.png" alt="" /></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="image fit"><img src="images/Vajilla.png" alt="" /></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <hr>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-4 col-8">
+                <center>
+                    <a href="#" class="image fit"><img src="images/2000.png" alt="" /></a>
+                </center>
+            </div>
         </div>
     </section>
   </div>

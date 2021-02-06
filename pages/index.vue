@@ -19,10 +19,7 @@
       </header>
       <div class="container">
         <div class="row"  v-if="!$store.state.admin.fullPageLoading">
-          <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands" :paginationEnabled="false" title="Prueba"/>
-        </div>
-        <div class="row"  v-if="!$store.state.admin.fullPageLoading">
-          <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands2" title="Prueba"/>
+          <CustomItemsCarousel :perPageCustom="[[400, 3], [768, 4], [1024, 5]]" :isOnlyImage="true" :itemList="brands" title="Prueba"/>
         </div>
       </div>
     </section>

@@ -52,7 +52,8 @@ export default {
       let _products = this.$store.state.products.products.filter(_pro => _pro.CATEGORIA === this.categoryActive && _pro.FAB === this.id) // get products from store
       if (this.text !== '') {
         _products = _products.filter(_pro => {
-          const text = this.text
+          let text = this.text
+          text = text.toLowerCase()
           return _pro.id.toString().toLowerCase().indexOf(text) !== -1 || _pro.NART.toLowerCase().indexOf(text) !== -1 || _pro.CATEGORIA.toLowerCase().indexOf(text) !== -1
         })
       }

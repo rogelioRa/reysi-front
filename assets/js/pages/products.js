@@ -57,11 +57,13 @@ export default {
     products () {
       let _products = this.$store.state.products.products.filter(_pro => _pro.CATEGORIA === this.categoryActive) // get products from store
       if (this.text !== '') {
-        _products = _products.filter(_pro => {
-          const text = this.text
-          return _pro.id.toString().toLowerCase().indexOf(text) !== -1 || _pro.NART.toLowerCase().indexOf(text) !== -1 || _pro.CATEGORIA.toLowerCase().indexOf(text) !== -1 || _pro.MEDIDAS.toLowerCase().indexOf(text) !== -1
+        _products = this.$store.state.products.products.filter(_pro => {
+          let text = this.text
+          text = text.toLowerCase()
+          return (_pro.id ? _pro.id : '').toString().toLowerCase().indexOf(text) !== -1 || (_pro.NART ? _pro.NART : '').toLowerCase().indexOf(text) !== -1 || (_pro.CATEGORIA ? _pro.CATEGORIA : '').toLowerCase().indexOf(text) !== -1 || (_pro.MEDIDAS ? _pro.MEDIDAS : '').toLowerCase().indexOf(text) !== -1
         })
       }
+      console.log(_products, 'here products find')
       const paginated = paginator.paginate(_products, this.perPage)
       this.paginatorConfig = paginated.meta
       const indexPage = this.currentPageComputed - 1
@@ -92,6 +94,7 @@ export default {
       console.log(index, row)
     },
     setActivecategory (category) {
+      this.text = ''
       console.log(category, 'here category')
       this.category = category
     }
