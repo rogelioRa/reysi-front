@@ -2,30 +2,30 @@
 @import url(/css/font-awesome.min.css);
 @font-face {
 font-family: 'BIG_JOHN';
-src: url('/css/FONTSREYSI/BIG_JOHN/BIG_JOHN.otf'); /* IE9 Compat Modes */
+src: url('/FONTSREYSI/BIG_JOHN/BIG_JOHN.otf'); /* IE9 Compat Modes */
 }
 @font-face {
 font-family: 'Open_Sans';
-src: url('/css/FONTSREYSI/Open_Sans/OpenSans-Regular.ttf'); /* IE9 Compat Modes */
+src: url('/FONTSREYSI/Open_Sans/OpenSans-Regular.ttf'); /* IE9 Compat Modes */
 }
 
 @font-face {
 	font-family: "Hind";
-	src: url('/css/FONTSREYSI/Hind/Hind-Regular.ttf');
+	src: url('/FONTSREYSI/Hind/Hind-Regular.ttf');
 }
 @font-face {
 	font-family: "Hind";
-	src: url('/css/FONTSREYSI/Hind/Hind-Bold.ttf');
+	src: url('/FONTSREYSI/Hind/Hind-Bold.ttf');
 	font-weight: bold;
 }
 @font-face {
 	font-family: "Hind";
-	src: url('/css/FONTSREYSI/Hind/Hind-Medium.ttf');
+	src: url('/FONTSREYSI/Hind/Hind-Medium.ttf');
 	font-weight: 500;
 }
 @font-face {
 	font-family: "Hind";
-	src: url('/css/FONTSREYSI/Hind/Hind-SemiBold.ttf');
+	src: url('/FONTSREYSI/Hind/Hind-SemiBold.ttf');
 	font-weight: 600;
 }
 
