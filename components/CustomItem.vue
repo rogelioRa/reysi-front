@@ -13,8 +13,8 @@
         </center>
       </section>
       <section v-else>
-        <img alt="Cubasa"  data-src="https://casola.mx/wp-content/uploads/2020/10/logo_cubasa-190x190.jpg" class="jet-carousel__item-img lazyloaded img-fluid" :src="item.image">
-        <img alt="Cubasa"  data-src="https://casola.mx/wp-content/uploads/2020/10/logo_cubasa-190x190.jpg" class="jet-carousel__item-img lazyloaded img-fluid" :src="item.image2">
+        <img alt="Imagen carousel"  class="jet-carousel__item-img lazyloaded img-fluid" :src="item.image">
+        <img v-if="item.image2" alt="Imagen carousel"  class="jet-carousel__item-img lazyloaded img-fluid" :src="item.image2">
       </section>
     </div>
 </template>

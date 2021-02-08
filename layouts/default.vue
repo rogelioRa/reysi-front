@@ -5,6 +5,32 @@
       <a href="/" class="logo"><img class="ml-4" src="/images/logo-crop.png" alt="Reysi de la laguna" /></a>
       <nav id="nav">
         <ul>
+          <li class="dropdown-submenu">
+            <a tabindex="-1" class="dropdown-toggle topLevel" data-toggle="dropdown" href="#">
+              MENÚ FÁBRICA
+            </a>
+            <ul class="dropdown-menu first-label">
+              <li class="dropdown-submenu item-menu" v-for="category in categoriesFab" :key="category.ID_CART">
+                <a href="#">{{category.CATEGORIA}}</a>
+                <ul class="dropdown-menu">
+                  <li class="item-menu"><a href="#">Elementary</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown-submenu">
+            <a tabindex="-1" class="dropdown-toggle topLevel" data-toggle="dropdown" href="#">
+              MENÚ PROVEEDORA
+            </a>
+            <ul class="dropdown-menu first-label">
+              <li class="dropdown-submenu item-menu" v-for="category in categoriesProv" :key="category.ID_CART">
+                <a href="#">{{category.CATEGORIA}}</a>
+                <ul class="dropdown-menu">
+                  <li class="item-menu"><a href="#">Elementary</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
           <li><a href="/">INGRESAR <i class="fa fa-user"></i></a></li>
           <li><a href="/presencia"> PRESENCIA <i class="fa fa-truck"></i></a></li>
           <li class="mr-4"><a href="/contacto">CONTACTO <i class="fa fa-phone"></i></a></li>
@@ -39,7 +65,7 @@
                 <ul class="alt">
                   <li><a href="/">Inicio</a></li>
                   <li><a href="/contacto">Contacto</a></li>
-                  <li><a href="#payment">Formas de pago</a></li>
+                  <li><a href="/metodos">Formas de pago</a></li>
                 </ul>
               </div>
               <div class="3u">
@@ -79,9 +105,9 @@
               <li><a href="https://goo.gl/maps/w7zW86esBBY9YbiR8" target="_blank" class="icon fa-map-marker"><span class="label">Ubicación</span></a></li>
               </ul>
           </div>
-            <div class="3u">
-              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.9466747412844!2d-103.51033728550786!3d25.57344082260966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fd8486fb3dfa9%3A0x4ae18f7fcd5e2859!2sProveedora%20Reysi!5e0!3m2!1ses-419!2smx!4v1605827894430!5m2!1ses-419!2smx" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
-            </div>
+          <div class="3u">
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.9466747412844!2d-103.51033728550786!3d25.57344082260966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fd8486fb3dfa9%3A0x4ae18f7fcd5e2859!2sProveedora%20Reysi!5e0!3m2!1ses-419!2smx!4v1605827894430!5m2!1ses-419!2smx" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+          </div>
           </div>
         <ul class="copyright">
           <li>&copy; {{new Date().getFullYear()}} Todos los derechos reservados. Reysi de la laguna</li>
@@ -139,19 +165,21 @@
     font-weight: bold;
   }
   .dropdown-submenu {
-  position: relative;
-}
+    position: relative;
+  }
 
 .dropdown-submenu>.dropdown-menu {
   top: 0;
   left: 100%;
-  margin-top: 3.8rem;
-  margin-left: -7rem;
   -webkit-border-radius: 0 6px 6px 6px;
   -moz-border-radius: 0 6px 6px 6px;
   border-radius: 0 6px 6px 6px;
 }
 
+.dropdown-submenu>.dropdown-menu.first-label {
+  left: .1rem;
+  top: 4rem;
+}
 .dropdown-submenu:hover>.dropdown-menu {
   display: block;
 }
@@ -159,7 +187,14 @@
 .dropdown-submenu:hover>a:after {
   border-left-color: #ffffff;
 }
-
+.item-menu {
+  line-height: 2.5rem;
+  padding: .1rem .5rem;
+  font-size: .8rem;
+}
+.item-menu > a {
+  line-height: 2.5rem;
+}
 .dropdown-submenu.pull-left {
   float: none;
 }
@@ -171,6 +206,7 @@
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
 }
+
 @media screen and (max-width: 500px) {
   .dropdown-submenu {
     display: none;

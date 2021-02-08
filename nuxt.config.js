@@ -1,3 +1,4 @@
+const webpack = require('webpack')
 
 export default {
   mode: 'spa',
@@ -145,7 +146,13 @@ export default {
           }
         })
       }
-    }
+    },
+    vendor: ['jquery', 'bootstrap'],
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: 'jquery'
+      })
+    ]
   },
   router: {
     middleware: 'i18n'

@@ -34,7 +34,7 @@
           <div class="6u">
             <section style="padding: 0 50px" class="special">
               <a href="#" style="padding: 0 50px" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-              <h3>División Proveedora</h3>
+              <h3>Division Proveedora</h3>
               <p>Encargada de proveer articulos de cocina, utensilios, blancos, electrodomésticos.  </p>
               <ul class="actions">
                 <li><a :href="'/divicion/'+0" class="button alt">Ir al catálogo</a></li>
@@ -44,7 +44,7 @@
           <div class="6u">
             <section style="padding: 0 50px" class="special">
               <a href="#" style="padding: 0 50px" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-              <h3>División fabrica</h3>
+              <h3>Division fabrica</h3>
               <p>Aquí encontraras productos para el hogar en general tales como electrónica, línea blanca, muebles en general.</p>
               <ul class="actions">
                 <li><a :href="'/divicion/'+1" class="button alt">Ir al catálogo</a></li>
@@ -57,7 +57,7 @@
     <!-- Sub Hero -->
     <section id="one" class="wrapper style1">
       <header class="major">
-        <h2>Nuestro Catálogo</h2>
+        <h2>Nuestro Catalogo</h2>
         <p class="mt-2">Productos que harán tu vida más cómoda</p>
       </header>
       <div class="container">
@@ -81,30 +81,6 @@
             <div class="4u">
               <section style="padding: 0 20px">
                 <a href="#" class="image fit"><img src="images/logoprincipalnaranja.png" alt="" /></a>
-            </section>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="payment" class="wrapper style2">
-      <header class="major">
-        <h2>Métodos de Pago</h2>
-        <p class="mt-2">Conoce las distintas opciones de pago que ofrecemos</p>
-      </header>
-      <div class="container">
-        <div class="row">
-          <div class="6u">
-            <section class="special mt-p-0-50">
-              <h3 class="title-method-sm">Métodos de Pago</h3>
-              <a href="#" class="image fit mt-p-0-50"><img src="images/metodos_pago.png" alt="" /></a>
-              <h3 class="title-method">Métodos de Pago</h3>
-            </section>
-          </div>
-          <div class="6u">
-            <section class="special mt-p-0-50">
-              <h3 class="title-method-sm">Corresponsales bancarios</h3>
-              <a href="#" class="image fit mt-p-0-50"><img src="images/corresponsales_bancarios.png" alt="" /></a>
-              <h3 class="title-method">Corresponsales bancarios</h3>
             </section>
           </div>
         </div>

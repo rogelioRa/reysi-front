@@ -1,6 +1,10 @@
 import paginator from '~/assets/js/tools/paginator.js'
+import CustomItemsCarousel from '~/components/CustomItemsCarousel'
 
 export default {
+  components: {
+    CustomItemsCarousel
+  },
   data () {
     return {
       loading: true,
@@ -9,7 +13,56 @@ export default {
       paginatorConfig: {},
       perPage: 12,
       currentPage: 1,
-      text: ''
+      text: '',
+      methods: [
+        {
+          image: '/images/metodos/1.png'
+        },
+        {
+          image: '/images/metodos/2.jpg'
+        },
+        {
+          image: '/images/metodos/3.jpg'
+        },
+        {
+          image: '/images/metodos/4.png'
+        },
+        {
+          image: '/images/metodos/5.png'
+        },
+        {
+          image: '/images/metodos/6.png'
+        },
+        {
+          image: '/images/metodos/7.jpg'
+        },
+        {
+          image: '/images/metodos/8.png'
+        }
+      ],
+      banks: [
+        {
+          image: '/images/metodos/9.png'
+        },
+        {
+          image: '/images/metodos/10.png'
+        },
+        {
+          image: '/images/metodos/11.png'
+        },
+        {
+          image: '/images/metodos/12.png'
+        },
+        {
+          image: '/images/metodos/13.png'
+        },
+        {
+          image: '/images/metodos/14.png'
+        },
+        {
+          image: '/images/metodos/15.png'
+        }
+      ]
     }
   },
   computed: {
@@ -94,6 +147,7 @@ export default {
       console.log(index, row)
     },
     setActivecategory (category) {
+      console.log(category, 'here categoria')
       this.text = ''
       console.log(category, 'here category')
       this.category = category

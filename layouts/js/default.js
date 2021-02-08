@@ -2,12 +2,43 @@ export default {
   data: () => {
     return {
       visible: false,
-      search: ''
+      search: '',
+      products: []
     }
   },
   computed: {
     fullScreenLoading () {
       return this.$store.state.admin.fullPageLoading
+    },
+    categoriesFab () {
+      const _products = this.products.filter(_pro => _pro.FAB === 1) // get products from store
+      var _categories = []
+      for (let i = 0; i < _products.length; i++) {
+        const element = _products[i]
+        const category = _categories.find(_category => _category.CATEGORIA === element.CATEGORIA)
+        if (!category) {
+          if (element.CATEGORIA) {
+            _categories.push(element)
+          }
+        }
+      }
+      this.category = this.category === '' && _categories.length > 0 ? _categories[0].CATEGORIA : this.category
+      return _categories
+    },
+    categoriesProv () {
+      const _products = this.products.filter(_pro => _pro.FAB === 0) // get products from store
+      var _categories = []
+      for (let i = 0; i < _products.length; i++) {
+        const element = _products[i]
+        const category = _categories.find(_category => _category.CATEGORIA === element.CATEGORIA)
+        if (!category) {
+          if (element.CATEGORIA) {
+            _categories.push(element)
+          }
+        }
+      }
+      this.category = this.category === '' && _categories.length > 0 ? _categories[0].CATEGORIA : this.category
+      return _categories
     }
   },
   methods: {
