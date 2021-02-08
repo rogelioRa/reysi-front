@@ -50,7 +50,7 @@
             <hr>
         </div>
         <div class="row justify-content-center">
-            <div class="col-xl-4 col-lg-4 col-8">
+            <div class="col-xl-3 col-lg-3 col-6">
                 <center>
                     <a href="#" class="image fit"><img src="images/2000.png" alt="" /></a>
                 </center>

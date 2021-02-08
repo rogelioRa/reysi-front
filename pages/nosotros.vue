@@ -45,6 +45,8 @@
                 <div class="6u justify-content-center">
                     <section style="padding: 20px 0;">
                         <p>A la fecha tenemos presencia en 7 estados del norte y contamos con unidades de servicio de transporte para su comercialización de todas las marcas líderes y propias de la misma, siendo un total de 150 colaboradores en diferentes áreas del GRUPO REYSI.</p>
+                        <br>
+                        <p>Con esto la empresa amplió sus tipos de mercado. Hasta el año en curso, contamos con el transporte y un grupo de colaboradores necesarios para la comercialización de todas las marcas lideres y propias</p>
                     </section>
                 </div>
 
@@ -56,7 +58,7 @@
     <section id="three" class="wrapper style1">
         <div class='container'>
                 <header class="major">
-                <h3>Con esto la empresa amplio sus tipos de mercado. Hasta el año en curso, contamos con el transporte y un grupo de colaboradores necesarios para la comercialización de todas las marcas lideres y propias.</h3>
+                <h3>Somos tu proveedora lider.</h3>
             </header>
         </div>
     </section>

@@ -90,7 +90,7 @@
       </div>
     </footer>
 </div>
-</template>
+</template>º
 <style scoped>
   .title-footer {
     font-size: 1rem;
@@ -138,4 +138,42 @@
     font-size: 1.5rem !important;
     font-weight: bold;
   }
+  .dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 3.8rem;
+  margin-left: -7rem;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+@media screen and (max-width: 500px) {
+  .dropdown-submenu {
+    display: none;
+  }
+}
 </style>

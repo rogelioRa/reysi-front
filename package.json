@@ -25,6 +25,7 @@
     "@nuxtjs/proxy": "^2.1.0",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.21.0",
+    "bp-vuejs-dropdown": "^2.1.1",
     "current-script-polyfill": "^1.0.0",
     "element-ui": "^2.13.0",
     "filestack-js": "^3.20.0",
