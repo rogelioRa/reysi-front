@@ -31,9 +31,9 @@
               </li>
             </ul>
           </li>
-          <li><a href="/">INGRESAR <i class="fa fa-user"></i></a></li>
-          <li><a href="/presencia"> PRESENCIA <i class="fa fa-truck"></i></a></li>
-          <li class="mr-4"><a href="/contacto">CONTACTO <i class="fa fa-phone"></i></a></li>
+          <li class="section-item"><a href="/">INGRESAR <i class="icon fa fa-user"></i></a></li>
+          <li class="section-item"><a href="/presencia"> PRESENCIA <i class="icon fa fa-truck"></i></a></li>
+          <li  class="mr-4 section-item"><a href="/contacto">CONTACTO <i class="icon fa fa-phone"></i></a></li>
           <li @click="visible=!visible" title="Buscar" class="icon-search-special"><i class="fa fa-search"></i></li>
           <li title="Catálogo" class="icon-search-special"><a href="/catalogo"><font-awesome-icon :icon="['fas','box-open']"  class="icon-delete"></font-awesome-icon></a></li>
         </ul>
@@ -116,13 +116,20 @@
       </div>
     </footer>
 </div>
-</template>º
+</template>
 <style scoped>
   .title-footer {
     font-size: 1rem;
     line-height: 1.5;
     font-weight: bold;
     margin-bottom: 1rem;
+  }
+  .icon {
+    margin-left: 5px;
+    font-weight: 600;
+  }
+  .section-item{
+    font-weight: 600;
   }
   .alt > li {
     line-height: .8rem;
