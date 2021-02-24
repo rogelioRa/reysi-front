@@ -35,7 +35,7 @@
           <li class="section-item"><a href="/presencia"> PRESENCIA <i class="icon fa fa-truck"></i></a></li>
           <li  class="mr-4 section-item"><a href="/contacto">CONTACTO <i class="icon fa fa-phone"></i></a></li>
           <li @click="visible=!visible" title="Buscar" class="icon-search-special"><i class="fa fa-search"></i></li>
-          <li title="Catálogo" class="icon-search-special"><a href="/catalogo"><font-awesome-icon :icon="['fas','box-open']"  class="icon-delete"></font-awesome-icon></a></li>
+          <li title="Catálogo" class="icon-search-special icon-delete"><a href="/catalogo"><font-awesome-icon :icon="['fas','box-open']"></font-awesome-icon></a></li>
         </ul>
       </nav>
     </header>
@@ -77,15 +77,15 @@
                 </ul>
               </div>
               <div class="3u">
-                <h3 class="title-footer">Atención al cliente</h3>
+                <h3 class="title-footer">Atencion al cliente</h3>
                 <ul class="alt">
-                <li><a href="/devoluciones">Facturación</a></li>
+                  <li><a href="/devoluciones">Facturación</a></li>
                   <li><a href="/faq">Preguntas Frecuentes</a></li>
                   <li><a href="/privacidad">Solicita tu crédito</a></li>
                 </ul>
               </div>
               <div class="3u">
-                <h3 class="title-footer">Políticas</h3>
+                <h3 class="title-footer">Politicas</h3>
                 <ul class="alt">
                 <li><a href="/terminos">Términos y Condiciones</a></li>
                 </ul>
@@ -93,7 +93,7 @@
             </div>
           </div>
           <div class="4u">
-            <h3 class="title-footer">Horarios de atención</h3>
+            <h3 class="title-footer">Horarios de atencion</h3>
             <p class="mb-1">Lunes a viernes de 8:00 am a 4:00 pm</p>
             <p class="mb-1">Sábado de 8:00 am a 1:00 pm</p>
             <ul class="icons">
@@ -132,7 +132,7 @@
     font-weight: 600;
   }
   .alt > li {
-    line-height: .8rem;
+    line-height: 1rem;
     font-weight: 100;
   }
   .icon-search-special {
@@ -146,6 +146,9 @@
     color: #044484;
     transform: scale(1.2);
     transition: .8s;
+  }
+  .icon-delete{
+    margin-bottom: -4rem !important;
   }
   .form-search {
     background: #fff !important;

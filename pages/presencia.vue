@@ -12,7 +12,7 @@
 
     <section class="wrapper style1">
         <header class="major">
-            <h2>Envíos a diferentes estados del país</h2>
+            <h2>Envios a diferentes estados del pais</h2>
         </header>
         <div class="container text-center">
             <div class="row">
