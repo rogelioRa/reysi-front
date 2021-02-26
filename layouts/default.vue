@@ -100,8 +100,8 @@
               <li><a href="tel:528717142103" target="_blank" class="icon fa-phone"><span class="label">Teléfono</span></a></li>
               <li><a href="https://wa.me/528711492907" target="_blank" class="icon" aria-hidden="true"><font-awesome-icon :icon="['fab','whatsapp']"  class="icon icon-whatsapp"></font-awesome-icon><span class="label">Whatsap</span></a></li>
               <li><a href="mailto:proveedorareysi@hotmail.com" target="_blank" class="icon fa-envelope"><span class="label">Correo</span></a></li>
-              <li><a href="https://www.facebook.com/Proveedora-REYSI-237512403124458" target="_blank"  class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="https://www.instagram.com/proveedora.reysi/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="https://www.facebook.com/reysidelalaguna" target="_blank"  class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="https://www.instagram.com/reysidelalaguna" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
               <li><a href="https://goo.gl/maps/w7zW86esBBY9YbiR8" target="_blank" class="icon fa-map-marker"><span class="label">Ubicación</span></a></li>
               </ul>
           </div>
