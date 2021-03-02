@@ -30,7 +30,7 @@ export default {
           image2: '/images/brands/oster.jpg'
         },
         {
-          image: '/images/brands/crisa.jpg',
+          image: '/images/brands/crisa.png',
           image2: '/images/brands/plastic_trends.jpg'
         },
         {
