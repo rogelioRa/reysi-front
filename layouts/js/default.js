@@ -50,6 +50,11 @@ export default {
       window.location.href = '/catalogo'
       // this.$router.push('/catalogo')
     },
+    goCategory (category) {
+      localStorage.setItem('search', category)
+      this.visible = false
+      window.location.href = '/catalogo'
+    },
     handleClose () {
       // here logic close
       this.visible = !this.visible

@@ -11,10 +11,7 @@
             </a>
             <ul class="dropdown-menu first-label">
               <li class="dropdown-submenu item-menu" v-for="category in categoriesFab" :key="category.ID_CART">
-                <a href="#">{{category.CATEGORIA}}</a>
-                <ul class="dropdown-menu">
-                  <li class="item-menu"><a href="#">Elementary</a></li>
-                </ul>
+                <a href="#" @click="goCategory(category.CATEGORIA)">{{category.CATEGORIA}}</a>
               </li>
             </ul>
           </li>
@@ -24,10 +21,7 @@
             </a>
             <ul class="dropdown-menu first-label">
               <li class="dropdown-submenu item-menu" v-for="category in categoriesProv" :key="category.ID_CART">
-                <a href="#">{{category.CATEGORIA}}</a>
-                <ul class="dropdown-menu">
-                  <li class="item-menu"><a href="#">Elementary</a></li>
-                </ul>
+                <a @click="goCategory(category.CATEGORIA)" href="#">{{category.CATEGORIA}}</a>
               </li>
             </ul>
           </li>
