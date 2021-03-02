@@ -4,7 +4,7 @@
   <div>
  <section id="banner" style="background-image: url('/images/banner1.jpg')" >
         <div class="inner">
-            <h2>Misión y Visión</h2>
+            <h2>Mision y Vision</h2>
         </div>
     </section>
 
@@ -15,14 +15,14 @@
                 <div class="6u">
                   <section class="special box box-mision">
                         <a href="#" class="image fit3"><img src="images/objetivo.png" alt="" /></a>
-                        <h3>Misión</h3>
+                        <h3>Mision</h3>
                         <p>Ser el proveedor de productos para el hogar más confiable y conveniente, a través del compromiso y desarrollo de nuestros colaboradores. Satisfaciendo las expectativas y necesidades de nuestros clientes.</p>
                     </section>
                 </div>
                 <div class="6u">
                     <section class="special box box-mision">
                         <a href="#" class="image fit3"><img src="images/ojo.png" alt="" /></a>
-                        <h3>Visión</h3>
+                        <h3>Vision</h3>
                         <p>Posicionarnos como el proveedor líder en nuestro mercado a nivel norte del país, donde la logística y desarrollo de su entorno genere seguridad a sus clientes.</p>
                     </section>
                 </div>

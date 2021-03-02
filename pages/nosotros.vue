@@ -58,7 +58,7 @@
     <section id="three" class="wrapper style1">
         <div class='container'>
                 <header class="major">
-                <h3>Somos tu proovedor lider.</h3>
+                <h3>Somos tu proveedor lider.</h3>
             </header>
         </div>
     </section>

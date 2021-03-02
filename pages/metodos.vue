@@ -13,7 +13,7 @@
     </header>
     <div class="container">
       <div class="row">
-        <CustomItemsCarousel :perPageCustom="[[400, 1], [768, 2], [1024, 3]]" :isOnlyImage="true" :itemList="methods" title="Prueba"/>
+        <CustomItemsCarousel :perPageCustom="[[400, 2], [768, 3], [1024, 4]]" :isOnlyImage="true" :itemList="methods" title="Prueba"/>
       </div>
     </div>
   </section>
@@ -23,7 +23,7 @@
     </header>
     <div class="container">
       <div class="row">
-        <CustomItemsCarousel :perPageCustom="[[400, 1], [768, 2], [1024, 3]]" :isOnlyImage="true" :itemList="banks" title="Prueba"/>
+        <CustomItemsCarousel :perPageCustom="[[400, 2], [768, 3], [1024, 4]]" :isOnlyImage="true" :itemList="banks" title="Prueba"/>
       </div>
     </div>
   </section>
