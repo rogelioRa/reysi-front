@@ -5,7 +5,7 @@
 <!-- Banner -->
     <section id="banner" style="background-image: url('/images/banner2.jpg')">
         <div class="inner">
-            <h2>Catalogo | {{category}} | {{id == 0 ? 'DIVISIÓN PROVEDORA' : 'DIVISIÓN FÁBRICA'}}</h2>
+            <h2>Catalogo | {{category}} | {{id == 0 ? 'DIVISION PROVEDORA' : 'DIVISION FABRICA'}}</h2>
         </div>
     </section>
     <div class="container-fluid">
