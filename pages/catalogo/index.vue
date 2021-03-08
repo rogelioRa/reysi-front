@@ -5,14 +5,14 @@
 <!-- Banner -->
     <section id="banner" style="background-image: url('/images/banner2.jpg')">
         <div class="inner">
-            <h2>Catálogo | {{category}}</h2>
+            <h2>Catalogo | {{category}}</h2>
         </div>
     </section>
     <div class="container">
          <div class="row" style="padding-top: 75px; padding-right:45px;" v-if="!$store.state.admin.fullPageLoading">
             <div class="col-6 col-lg-4 col-xs-12 col-sm-5 col-xl-3">
                 <section id="categorySidebar">
-                    <h3>Categorías</h3>
+                    <h3>Categorias</h3>
                     <div class="row mb-1">
                         <div class="col-8">
                             <el-input placeholder="Buscar producto" v-model="text"></el-input>

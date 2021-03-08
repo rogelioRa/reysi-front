@@ -24,15 +24,15 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/images/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://reysi.uprevenue.mx/css/skel.css'
+        href: '/css/skel.css'
       },
       {
         rel: 'stylesheet',
-        href: 'https://reysi.uprevenue.mx/css/style.css'
+        href: '/css/style.css'
       },
       {
         rel: 'stylesheet',
-        href: 'https://reysi.uprevenue.mx/css/style-xlarge.css'
+        href: '/css/style-xlarge.css'
       },
       {
         rel: 'stylesheet',
@@ -47,22 +47,22 @@ export default {
     script: [
       {
         src:
-          'https://reysi.uprevenue.mx/js/jquery.min.js',
+          '/js/jquery.min.js',
         type: 'text/javascript'
       },
       {
         src:
-          'https://reysi.uprevenue.mx/js/skel.min.js',
+          '/js/skel.min.js',
         type: 'text/javascript'
       },
       {
         src:
-          'https://reysi.uprevenue.mx/js/skel-layers.min.js',
+          '/js/skel-layers.min.js',
         type: 'text/javascript'
       },
       {
         src:
-          'https://reysi.uprevenue.mx/js/init2.js',
+          '/js/init2.js',
         type: 'text/javascript'
       }
     ]
