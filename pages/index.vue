@@ -2,14 +2,7 @@
 
 <template>
   <div>
-      <section id="banner" style="background-image: url('/images/banner1.jpg')">
-        <div class="inner">
-          <h2>Reysi de la laguna</h2>
-          <p>Productos para el hogar, blancos y novedades </p>
-          <ul class="actions">
-            <li><a href="#payment" class="button big special">Formas de pago</a></li>
-          </ul>
-        </div>
+      <section id="banner_main">
       </section>
         <!-- Sub Hero -->
     <section id="one" class="wrapper style1">
