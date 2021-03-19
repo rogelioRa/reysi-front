@@ -1223,6 +1223,18 @@ src: url('/FONTSREYSI/Open_Sans/OpenSans-Regular.ttf'); /* IE9 Compat Modes */
 		}
 	}
 
+	@media only screen and (min-width: 860px) {
+		#mobile-only {
+			display: none;
+		}
+	}
+
+	@media only screen and (max-width: 860px) {
+		#desktop-only {
+			display: none;
+		}
+	}
+
 	@media (min-width: 992px){
 		.dropdown-menu .dropdown-toggle:after{
 			border-top: .3em solid transparent;
