@@ -84,6 +84,10 @@ export default {
         {
           image: '/images/brands/lunita.jpg',
           image2: '/images/brands/vasconia.jpg'
+        },
+        {
+          image: '/images/brands/alica.jpg',
+          image2: '/images/brands/brisa.jpg'
         }
       ]
     }
