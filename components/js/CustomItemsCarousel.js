@@ -19,7 +19,7 @@ export default {
     count: 1,
     loading: false,
     currentPage: 1,
-    perPage: 20,
+    perPage: 40,
     paginatorConfig: {}
   }),
   computed: {
