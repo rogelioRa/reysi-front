@@ -93,3 +93,5 @@ sw.*
 env.js
 /.history
 /yarn.lock
+
+/static/pdf

@@ -28,9 +28,9 @@
               <div class="6u">
                   <p>MARCA: {{ product.MARCA }}</p>
                   <p>MODELO: {{ product.MODELO }}</p>
-                  <p>MEDIDAS{{ product.MEDIDAS }}</p>
+                  <p>MEDIDAS: {{ product.MEDIDAS }}</p>
                   <p>Categoría: {{ product.CATEGORIA }}</p>
-                  <button v-b-modal.modal-1 class="button big special btn-details">FICHA TÉCNICA</button>
+                  <a :href="`/pdf/${product.CART}.pdf`" target="_blank" class="button big special btn-details">Ficha Técnica</a>
               </div>
           </div>
       </div>
