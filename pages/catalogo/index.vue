@@ -29,7 +29,7 @@
                      <div class="card mb-5" style="width: 100%;">
                             <div @click="viewProduct(product)" class="bg-image-product" :style="'background-image: url('+ bgImage(product) +')'"/>
                             <div class="card-body">
-                                <h4 class="card-title">{{product.NART}}</h4>
+                                <h4 class="card-title">{{product.NART.normalize("NFD").replace(/[\u0300-\u036f]/g, "")}}</h4>
                                 <b-card-text>
                                 MARCA: {{product.MARCA}}
                                 <br>

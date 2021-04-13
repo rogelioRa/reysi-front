@@ -6,7 +6,7 @@
 <!-- Banner -->
 <section id="banner" style="background-image: url('/images/banner2.jpg')">
       <div class="inner">
-      <h2>{{ product.NART }} </h2>
+      <h2>{{ product.NART.normalize("NFD").replace(/[\u0300-\u036f]/g, "") }} </h2>
       </div>
   </section>
    <b-modal id="modal-1" title="FICHA TÉCNICA" hide-footer>
@@ -17,7 +17,7 @@
   </b-modal>
   <section id="two" class="wrapper style1">
       <header class="major">
-          <h2>{{ product.NART }} </h2>
+          <h2>{{ product.NART.normalize("NFD").replace(/[\u0300-\u036f]/g, "") }} </h2>
           <p class="mt-4">{{ product.CATEGORIA }}</p>
       </header>
       <div class="container">
