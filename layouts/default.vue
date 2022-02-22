@@ -80,7 +80,7 @@
           </div>
         <ul class="copyright">
           <li>&copy; {{new Date().getFullYear()}} Todos los derechos reservados. Proveedora Reysi</li>
-          <li>Desarrollado por: <a href="http://uprevenue.mx">Uprevenue.mx</a></li>
+          <li>Desarrollado por: <a href="https://uprevenue.mx">Uprevenue.mx</a></li>
         </ul>
       </div>
     </footer>
