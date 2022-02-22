@@ -210,4 +210,14 @@
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
 }
+@media (max-width: 768px) {
+ .item-menu a {
+   color: #333;
+   padding: 10px;
+ }
+ .dropdown-toggle {
+   font-weight: 700;
+ }
+}
+
 </style>
