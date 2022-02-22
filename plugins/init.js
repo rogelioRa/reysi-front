@@ -92,7 +92,7 @@
 						clickToHide: true,
 						height: '100%',
 						hidden: true,
-						html: '<div data-action="moveElement" data-args="nav"></div>',
+						html: '<div></div>',
 						orientation: 'vertical',
 						position: 'top-left',
 						side: 'left',
