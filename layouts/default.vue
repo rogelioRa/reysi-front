@@ -210,10 +210,4 @@
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
 }
-
-@media screen and (max-width: 500px) {
-  .dropdown-submenu {
-    display: none;
-  }
-}
 </style>
