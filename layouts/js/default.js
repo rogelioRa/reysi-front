@@ -43,7 +43,6 @@ export default {
   },
   methods: {
     searchProduct () {
-      console.log(this.search, 'here product to search')
       localStorage.setItem('search', this.search)
       this.search = ''
       this.visible = false
@@ -67,7 +66,6 @@ export default {
           'Content-Type': 'application/json'
         }
       }).then(result => {
-        console.log(result.data, 'here cart string')
         const cart = result.data
         this.products = cart
         this.$store.commit('products/setProducts', this.products)

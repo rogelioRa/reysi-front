@@ -47,7 +47,6 @@ export default {
     }
   },
   mounted () {
-    console.log(this.item, 'here item recive with param')
     this.$forceUpdate()
   }
 }

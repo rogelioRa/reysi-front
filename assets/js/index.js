@@ -105,13 +105,7 @@ export default {
       return route
     },
     productsList () {
-      console.log(this.$store.state.products.products, 'here products computed store')
       return this.$store.state.products.products
     }
-  },
-  methods: {
-  },
-  mounted () {
-    console.log(this.$store.state.products.products, 'here mounts products')
   }
 }

@@ -77,7 +77,6 @@ export default {
       } else {
         pro = this.$store.state.products.products.find(_pro => _pro.ID_CART === this.id) // get products from store
       }
-      console.log(pro, this.id, this.$store.state.products.products, 'here product active')
       if (pro) {
         return pro
       }
@@ -101,7 +100,6 @@ export default {
         }
       }
       this.category = this.category === '' && _categories.length > 0 ? _categories[0].CATEGORIA : this.category
-      console.log(this.category, 'here categirues ibhects')
       return _categories
     },
     currentPageComputed () {
@@ -116,7 +114,6 @@ export default {
           return (_pro.id ? _pro.id : '').toString().toLowerCase().indexOf(text) !== -1 || (_pro.NART ? _pro.NART : '').toLowerCase().indexOf(text) !== -1 || (_pro.CATEGORIA ? _pro.CATEGORIA : '').toLowerCase().indexOf(text) !== -1 || (_pro.MEDIDAS ? _pro.MEDIDAS : '').toLowerCase().indexOf(text) !== -1
         })
       }
-      console.log(_products, 'here products find')
       const paginated = paginator.paginate(_products, this.perPage)
       this.paginatorConfig = paginated.meta
       const indexPage = this.currentPageComputed - 1
@@ -143,18 +140,12 @@ export default {
     changePaginate (index) {
       this.currentPage = index
     },
-    getIndex (row, index) {
-      console.log(index, row)
-    },
     setActivecategory (category) {
-      console.log(category, 'here categoria')
       this.text = ''
-      console.log(category, 'here category')
       this.category = category
     }
   },
   mounted () {
-    console.log(this.$route.params.id, 'here products store')
     this.id = parseInt(this.$route.params.id)
     const search = localStorage.getItem('search')
     if (search && search !== '') {

@@ -22,7 +22,6 @@ export default ({ app }, inject) => {
         }
       },
       function (result, data) {
-        console.log(result, data)
         resolve(data.id)
       },
       function (err) {

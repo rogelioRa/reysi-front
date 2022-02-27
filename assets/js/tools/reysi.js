@@ -27,7 +27,6 @@ class Memorick {
   }
 
   getStatus (_statusId) {
-    console.log(_statusId, 'here status id')
     switch (_statusId) {
       case 0:
         return { color: '', label: 'Todo' }
